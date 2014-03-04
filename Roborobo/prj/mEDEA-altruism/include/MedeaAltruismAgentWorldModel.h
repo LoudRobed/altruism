@@ -36,7 +36,7 @@ class MedeaAltruismAgentWorldModel : public EvolvingRobotAgentWorldModel
 		double _distanceToClosestEnergyPoint;
 
 		double _energyHarvestingRate;
-
+		double _energyDonation;
 		int _fatherId;
 		int _maturity;
 		int _dateOfBirth;
