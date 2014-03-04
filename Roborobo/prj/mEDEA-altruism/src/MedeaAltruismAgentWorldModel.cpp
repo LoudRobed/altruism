@@ -17,6 +17,7 @@ MedeaAltruismAgentWorldModel::MedeaAltruismAgentWorldModel()
 	_fatherId=-1;
 	_lifeTime = 1;
 	_energyHarvestingRate = 0.0;
+	_energyDonation = 0.0;
 	_idlenessTracker.reset();
 }
 
@@ -113,6 +114,27 @@ void MedeaAltruismAgentWorldModel::setEnergyHarvestingRate(double __energyHarves
 double MedeaAltruismAgentWorldModel::getEnergyHarvestingRate()
 {
 	return _energyHarvestingRate;
+}
+
+void MedeaAltruismAgentWorldModel::setEnergyDonation(double __donation){
+
+	if(__donation < 0.0)
+	{
+		_energyDonation = 0.0;
+	}
+	else if (__donation > 1.0)
+	{
+		_energyDonation = 1.0;
+	}
+	else
+	{
+		_energyDonation = _energyDonation+__donation;
+	}
+
+}
+
+double MedeaAltruismAgentWorldModel::getEnergyDonation(){
+	return _energyDonation;
 }
 
 void MedeaAltruismAgentWorldModel::setFatherId(int fathId)

@@ -76,6 +76,9 @@ class MedeaAltruismAgentWorldModel : public EvolvingRobotAgentWorldModel
 		void setEnergyHarvestingRate(double __energyHarvestingRate);		
 		double getEnergyHarvestingRate();
 
+		void setEnergyDonation(double __donation);
+		double getEnergyDonation();
+
 		void setFatherId(int fathId);
 		int getFatherId();
 

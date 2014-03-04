@@ -248,12 +248,16 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 					}
 				}
 			}
+			double donationRate = currentAgentWorldModel->getEnergyDonation();
+			if(donationRate > 0.9){
 			EnergyPoint ep(1000);
 			double rate = 0.1;
 			ep.setEnergyPointValue(currentAgentWorldModel->getEnergyLevel()*rate);
 			currentAgentWorldModel->setEnergyLevel(currentAgentWorldModel->getEnergyLevel()-ep.getEnergyPointValue());
 			_world->addEnergyPoint(ep);
+			currentAgentWorldModel->setEnergyDonation(-1.0); //Resets donation to 0;
 		}
+}
 		
 		
 		// * update agent energy consumption -- if inactive, "revive" the agent (ie. it ran out of energy)
@@ -289,6 +293,7 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 		
 			currentAgentWorldModel->_genomesList.empty();
 		}
+		//TODO: GIVEAWAY
 	}	
 }
 

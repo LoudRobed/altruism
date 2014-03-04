@@ -243,7 +243,7 @@ void MedeaAltruismPerceptronControlArchitecture::step()
 
 		//apply the output value
 		_wm->setEnergyHarvestingRate(energyHarvestingRate);
-
+		_wm->setEnergyDonation(energyHarvestingRate/100);
 
 	}
 
