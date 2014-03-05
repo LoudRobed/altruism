@@ -143,7 +143,7 @@ void MedeaAltruismWorldObserver::step()
 			gLogFile.close();
 			exit(0);
 		}
-
+		//TODO: Add check for inactive agent created energy points and remove them.
 		int energyPointActiveCount = 0;
 		for(std::vector<EnergyPoint>::iterator it = gEnergyPoints.begin(); it != gEnergyPoints.end(); it++)
 		{
@@ -151,6 +151,11 @@ void MedeaAltruismWorldObserver::step()
 			{
 				energyPointActiveCount ++;
 			}
+			else{
+			if(it->isAgentGenerated()){
+
+			
+}	
 		}
 		gLogFile << gWorld->getIterations() << " : EP activeCount " << energyPointActiveCount << std::endl;
 	
@@ -175,7 +180,7 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 	for ( int i = 0 ; i != gAgentCounter ; i++ ) // for each agent
 	{
 		MedeaAltruismAgentWorldModel *currentAgentWorldModel = dynamic_cast<MedeaAltruismAgentWorldModel*>(gWorld->getAgent(i)->getWorldModel());
-		
+	
 		// * check energy level. Becomes inactive if zero.
 	/*	
 		if ( currentAgentWorldModel->getEnergyLevel() <= 0 )
@@ -196,7 +201,7 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 			{
 				for(std::vector<EnergyPoint>::iterator it = gEnergyPoints.begin(); it != gEnergyPoints.end(); it++)
 				{
-					if( (getEuclidianDistance (posRobot,it->getPosition()) < gEnergyPointRadius) && (it->getActiveStatus()))
+					if( (getEuclidianDistance (posRobot,it->getPosition()) < gEnergyPointRadius) && (it->getActiveStatus()) && it->getId() != currentAgentWorldModel->_agentId)
 					{
 						float loadingEnergy = 0.0;
 						if ( MedeaAltruismSharedData::harvestingScheme.compare("dynCost") == 0)
@@ -250,10 +255,11 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 			}
 			double donationRate = currentAgentWorldModel->getEnergyDonation();
 			if(donationRate > 0.9888888888){
-			EnergyPoint ep(1000,currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
+			EnergyPoint ep(currentAgentWorldModel->_agentId,currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
 			ep.setEnergyPointValueIsLocal(true);
 			ep.setEnergyPointValue(currentAgentWorldModel->getEnergyLevel()*0.25);
 			ep.setRespawnLagMethodIsLocal(true);
+			ep.setAgentGenerated(true);
 			//ep.setPosition(currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
 			currentAgentWorldModel->setEnergyLevel(currentAgentWorldModel->getEnergyLevel()-ep.getEnergyPointValue());
 			_world->addEnergyPoint(ep);

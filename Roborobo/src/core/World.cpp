@@ -205,8 +205,12 @@ void World::updateWorld(Uint8 *__keyboardStates)
 
 	// update energy points status, if any, and if needed
 	if ( gEnergyMode == true )
-	{
+	{	
+		int i = g.EnergyPoints.begin();
 		for (std::vector<EnergyPoint>::iterator it = gEnergyPoints.begin(); it < gEnergyPoints.end() ; it++ )
+			if(it->getActiveStatus() == false && it->isAgentGenerated()){
+			//deleteEnergyPoint(it);
+	}
 			it->step();
 	}
 

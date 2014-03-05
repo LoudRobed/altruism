@@ -31,7 +31,7 @@ class EnergyPoint : public InanimateObject
 		int _respawnLagMaxValue; // default: gEnergyPointRespawnLagMaxValue (but not used as long as _respawnMethodIsLocal is false)
 
 		bool _active; // active points can be harvested, inactive points do not exist.
-
+		bool _agentGenerated;
 //		double _key;
 //		double _initLock;
 
@@ -47,7 +47,8 @@ class EnergyPoint : public InanimateObject
 		void setPosition(double x, double y);		
 		////void setPosition();
 		//Point2d getPosition();
-
+		bool isAgentGenerated();
+		void setAgentGenerated(bool __value);
 		bool getEnergyPointValueIsLocal();
 		void setEnergyPointValueIsLocal( bool __value );
 		int getEnergyPointValue();

@@ -44,7 +44,7 @@ EnergyPoint::EnergyPoint()// : InanimateObject()
 
 EnergyPoint::EnergyPoint(int id) : InanimateObject(id)
 {
-	
+	_agentGenerated = false;
 	double x = 0.0, y = 0.0;
 
 	std::string s = "";
@@ -115,7 +115,7 @@ EnergyPoint::EnergyPoint(int id) : InanimateObject(id)
 //Constructor for agent generated energy points.
 EnergyPoint::EnergyPoint(int id, double x, double y) : InanimateObject(id)
 {
-	
+	_agentGenerated = true;
 	color = 0xff0000ff;
 
 	std::string s = "";
@@ -188,8 +188,19 @@ EnergyPoint::~EnergyPoint()
 	//nothing to do
 }
 
+bool EnergyPoint::isAgentGenerated(){
+	return _agentGenerated;
+}
+
+void EnergyPoint::setAgentGenerated(bool __in){
+	_agentGenerated = __in;
+}
+
 void EnergyPoint::display()
 {
+	if(getRespawnLagMethodIsLocal() == true) color = 0xff0000ff;
+	else color = 0xeab71fff;//Default color.
+	if(_active ){
 	for (Sint16 xColor = _xCenterPixel - Sint16(_radius) ; xColor < _xCenterPixel + Sint16(_radius) ; xColor++)
 	{
 		for (Sint16 yColor = _yCenterPixel - Sint16(_radius) ; yColor < _yCenterPixel + Sint16 (_radius); yColor ++)
@@ -201,11 +212,10 @@ void EnergyPoint::display()
 		}
 	}
 }
-
+}
 void EnergyPoint::hide()
 {
-	_visible = false;
-	if(getId() == 1000)	std::cout << "HIDE";
+	//_visible = false;
 	Uint32 color = 0xffffffff;
 	for (Sint16 xColor = _xCenterPixel - Sint16(_radius) ; xColor < _xCenterPixel + Sint16(_radius) ; xColor++)
 	{
