@@ -41,6 +41,7 @@ class EnergyPoint : public InanimateObject
 
 		EnergyPoint();
 		EnergyPoint(int id);
+		EnergyPoint(int id, double x, double y);
 		~EnergyPoint();
 
 		void setPosition(double x, double y);		

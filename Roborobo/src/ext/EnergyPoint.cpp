@@ -6,7 +6,7 @@
 
 #include "World/World.h"
 
-	Uint32 color = 0xeab71fff;
+	Uint32 color = 0xeab71fff;//Default color.
 EnergyPoint::EnergyPoint()// : InanimateObject()
 {
 	
@@ -112,7 +112,77 @@ EnergyPoint::EnergyPoint(int id) : InanimateObject(id)
 	_energyPointValueIsLocal = false; // use gEnergyPointValue
 
 }
+//Constructor for agent generated energy points.
+EnergyPoint::EnergyPoint(int id, double x, double y) : InanimateObject(id)
+{
+	
+	color = 0xff0000ff;
 
+	std::string s = "";
+	s += "energy[";
+	std::stringstream out;
+	out << getId();
+	s += out.str();
+	s += "].x";
+	if ( gProperties.hasProperty( s ) )
+	{
+		convertFromString<double>(x, gProperties.getProperty( s ), std::dec);
+	}
+	else
+	{
+		if ( gVerbose )
+		{
+			std::cout << "[warning] Energy point #" << getId() << " - X coordinate not found, pick random value." << std::endl;
+		}
+	//	x = (rand() % (gAreaWidth-20)) + 10;
+	}
+
+	s = "energy[";
+	s += out.str();
+	s += "].y";
+	if ( gProperties.hasProperty( s ) )
+	{
+		convertFromString<double>(y, gProperties.getProperty( s ), std::dec);
+	}
+	else
+	{
+		if ( gVerbose )
+		{
+			std::cout << "[warning] Energy point #" << getId() << " - Y coordinate not found, pick random value." << std::endl;
+		}
+		//y = (rand() % (gAreaHeight-20)) + 10;
+	}
+
+	_position = Point2d(x,y);
+
+	_xCenterPixel = x;
+	_yCenterPixel = y;
+
+	_fixedLocation = true;
+	_active = true;
+
+	gProperties.checkAndGetPropertyValue("VisibleEnergyPoint", &_visible, false);
+	if ( _visible)
+	{
+		display();	
+	}
+
+//	gProperties.checkAndGetPropertyValue("initLock", &_initLock, true);
+//	_key = _initLock;
+
+	gProperties.checkAndGetPropertyValue("gEnergyPointRadius", &_radius, true);
+
+
+	_respawnLag = gEnergyPointRespawnLagMaxValue ;
+	_internLagCounter = 0;
+	
+	_respawnMethodIsLocal = false; // use gEnergyPointRespawnLagMaxValue
+	_respawnLagMaxValue = gEnergyPointRespawnLagMaxValue; // default, not used if _respawnMethodIsLocal
+	
+	_energyPointValue = gEnergyPointValue;
+	_energyPointValueIsLocal = true; // use gEnergyPointValue
+
+}
 EnergyPoint::~EnergyPoint()
 {
 	//nothing to do
@@ -120,7 +190,6 @@ EnergyPoint::~EnergyPoint()
 
 void EnergyPoint::display()
 {
-	if(getId() == 1000 && getActiveStatus()) color = 0xff0000ff;
 	for (Sint16 xColor = _xCenterPixel - Sint16(_radius) ; xColor < _xCenterPixel + Sint16(_radius) ; xColor++)
 	{
 		for (Sint16 yColor = _yCenterPixel - Sint16(_radius) ; yColor < _yCenterPixel + Sint16 (_radius); yColor ++)
@@ -135,6 +204,7 @@ void EnergyPoint::display()
 
 void EnergyPoint::hide()
 {
+	_visible = false;
 	if(getId() == 1000)	std::cout << "HIDE";
 	Uint32 color = 0xffffffff;
 	for (Sint16 xColor = _xCenterPixel - Sint16(_radius) ; xColor < _xCenterPixel + Sint16(_radius) ; xColor++)
@@ -244,20 +314,21 @@ void EnergyPoint::setEnergyPointValue( int __value )
 {
 	setEnergyPointValueIsLocal(true);
 	_energyPointValue = __value;
-	if(__value < 1) setActiveStatus(false);
+//	if(__value < 1) setActiveStatus(false);
 }
 
 
 void EnergyPoint::step()
 {
-	if ( !_active && getId() != 1000) // case: harvested. respawn delay?
+	if ( !_active ) // case: harvested. respawn delay?
 	{
 		_internLagCounter++;
 
 		if ( _internLagCounter >= _respawnLag ) // Note: in current implementation, _respawnLag is equal to gEnergyPointRespawnLagMaxValue.
 		{
 			if ( _respawnMethodIsLocal == true )
-				_respawnLag = _respawnLagMaxValue; // each energy point gets its own respawn lag
+				setActiveStatus(false);
+				//_respawnLag = _respawnLagMaxValue; // each energy point gets its own respawn lag
 			else
 				_respawnLag = gEnergyPointRespawnLagMaxValue; // all energy points share the respawn lag value
 

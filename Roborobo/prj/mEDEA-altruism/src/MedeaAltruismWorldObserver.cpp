@@ -250,9 +250,11 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 			}
 			double donationRate = currentAgentWorldModel->getEnergyDonation();
 			if(donationRate > 0.9888888888){
-			EnergyPoint ep(1000);
-			ep.setEnergyPointValue(currentAgentWorldModel->getEnergyLevel()*rate);
-			ep.setPosition(currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
+			EnergyPoint ep(1000,currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
+			ep.setEnergyPointValueIsLocal(true);
+			ep.setEnergyPointValue(currentAgentWorldModel->getEnergyLevel()*0.25);
+			ep.setRespawnLagMethodIsLocal(true);
+			//ep.setPosition(currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
 			currentAgentWorldModel->setEnergyLevel(currentAgentWorldModel->getEnergyLevel()-ep.getEnergyPointValue());
 			_world->addEnergyPoint(ep);
 			currentAgentWorldModel->setEnergyDonation(-1.0); //Resets donation to 0;
