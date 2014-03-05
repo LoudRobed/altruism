@@ -1,0 +1,26 @@
+This text file describes or asks questions about relevant parts of the source code.
+
+File: /prj/MedeaAltruism/MedeaAltruismPerceptronControlArchitecture.cpp
+Lines: 165-171
+What: 	A loop that does something according to wheather or not the floor sensor
+	 senses anything. It's not really easy to see what it does, it increments 
+	the hidden layer by 1 times the parameter at the spot given by the cryptic
+	variable geneToUse. After which, geneToUse is incremented. Why?
+	Could be that the geneToUse is which part of the gene to use to decide
+	the behaviour of some part of the organism.
+	Parameters is the current genome.
+Lines: 245
+What:	I believe this is where I should make the robot instigate the dropping of 
+	energy.
+
+Files: MedeaAltruismWorldObserver.cpp
+Lines: ???
+What: This is where alot of the logging takes place. 
+
+File: MedeaAltruismWorldObserver
+Lines: 236
+What: This is where the energy-level of the agent is updated according to
+	the harvesting scheme and how much energy is in the energy point.
+Lines: 251
+Todo for giving away energy,:w
+

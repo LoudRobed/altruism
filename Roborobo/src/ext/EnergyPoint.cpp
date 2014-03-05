@@ -6,6 +6,7 @@
 
 #include "World/World.h"
 
+	Uint32 color = 0xeab71fff;
 EnergyPoint::EnergyPoint()// : InanimateObject()
 {
 	
@@ -119,8 +120,7 @@ EnergyPoint::~EnergyPoint()
 
 void EnergyPoint::display()
 {
-	Uint32 color = 0xeab71fff;
-	if(getId() == 1000) color = 0xff0000ff;
+	if(getId() == 1000 && getActiveStatus()) color = 0xff0000ff;
 	for (Sint16 xColor = _xCenterPixel - Sint16(_radius) ; xColor < _xCenterPixel + Sint16(_radius) ; xColor++)
 	{
 		for (Sint16 yColor = _yCenterPixel - Sint16(_radius) ; yColor < _yCenterPixel + Sint16 (_radius); yColor ++)
@@ -135,6 +135,7 @@ void EnergyPoint::display()
 
 void EnergyPoint::hide()
 {
+	if(getId() == 1000)	std::cout << "HIDE";
 	Uint32 color = 0xffffffff;
 	for (Sint16 xColor = _xCenterPixel - Sint16(_radius) ; xColor < _xCenterPixel + Sint16(_radius) ; xColor++)
 	{
@@ -243,6 +244,7 @@ void EnergyPoint::setEnergyPointValue( int __value )
 {
 	setEnergyPointValueIsLocal(true);
 	_energyPointValue = __value;
+	if(__value < 1) setActiveStatus(false);
 }
 
 
@@ -296,8 +298,8 @@ void EnergyPoint::step()
 			//	calls only if display mode is normal speed
 			//	and if property "EnergyPoints_alwaysRender" is true
 			
-			if ( gEnergyPoints_alwaysRender ) // NOTE: the hide() method but be called externally (otw: displayed points may not exist anymore)
-				display();
+	//		if ( gEnergyPoints_alwaysRender ) // NOTE: the hide() method but be called externally (otw: displayed points may not exist anymore)
+			//	display();
 		}
 	}
 }

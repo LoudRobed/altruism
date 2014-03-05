@@ -99,7 +99,8 @@ void MedeaAltruismAgentWorldModel::setEnergyHarvestingRate(double __energyHarves
 {
 	if (__energyHarvestingRate < 0.0)
 	{
-		_energyHarvestingRate = 0.0;
+		//_energyHarvestingRate = 0.0;
+		_energyHarvestingRate = 1.0;
 	}
 	else if (__energyHarvestingRate > 1.0)
 	{
@@ -107,7 +108,8 @@ void MedeaAltruismAgentWorldModel::setEnergyHarvestingRate(double __energyHarves
 	}
 	else
 	{
-		_energyHarvestingRate = __energyHarvestingRate;
+		//_energyHarvestingRate = __energyHarvestingRate;
+		_energyHarvestingRate = 1.0;
 	}
 }
 
@@ -128,7 +130,7 @@ void MedeaAltruismAgentWorldModel::setEnergyDonation(double __donation){
 	}
 	else
 	{
-		_energyDonation = _energyDonation+__donation;
+		_energyDonation = __donation;
 	}
 
 }
