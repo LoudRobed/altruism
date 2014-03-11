@@ -151,11 +151,11 @@ void MedeaAltruismWorldObserver::step()
 			{
 				energyPointActiveCount ++;
 			}
-			else{
-			if(it->isAgentGenerated()){
+		
+	
 
 			
-}	
+
 		}
 		gLogFile << gWorld->getIterations() << " : EP activeCount " << energyPointActiveCount << std::endl;
 	
