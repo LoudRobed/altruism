@@ -253,17 +253,28 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 					}
 				}
 			}
+			double thresh = 0.90;
 			double donationRate = currentAgentWorldModel->getEnergyDonation();
-			if(donationRate > 0.9888888888){
-			EnergyPoint ep(currentAgentWorldModel->_agentId,currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
-			ep.setEnergyPointValueIsLocal(true);
-			ep.setEnergyPointValue(currentAgentWorldModel->getEnergyLevel()*0.25);
-			ep.setRespawnLagMethodIsLocal(true);
-			ep.setAgentGenerated(true);
-			//ep.setPosition(currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
-			currentAgentWorldModel->setEnergyLevel(currentAgentWorldModel->getEnergyLevel()-ep.getEnergyPointValue());
-			_world->addEnergyPoint(ep);
-			currentAgentWorldModel->setEnergyDonation(-1.0); //Resets donation to 0;
+			
+			if(donationRate > thresh){
+			
+				EnergyPoint ep(currentAgentWorldModel->_agentId,currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
+				ep.setEnergyPointValueIsLocal(true);
+				ep.setRespawnLagMethodIsLocal(true);
+				ep.setAgentGenerated(true);
+			
+				double donation = ((1.0-donationRate)/(1.0-thresh))*MedeaAltruismSharedData::gEnergyMax;
+				
+				if(currentAgentWorldModel->getEnergyLevel() < donation){
+					ep.setEnergyPointValue( currentAgentWorldModel->getEnergyLevel());
+					 }
+				else{
+					ep.setEnergyPointValue(donation);
+					}	
+
+				currentAgentWorldModel->setEnergyLevel(currentAgentWorldModel->getEnergyLevel()-ep.getEnergyPointValue());
+				_world->addEnergyPoint(ep);
+				currentAgentWorldModel->setEnergyDonation(-1.0); //Resets donation to 0;
 		}
 }
 		
