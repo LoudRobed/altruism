@@ -120,8 +120,9 @@ void MedeaAltruismWorldObserver::step()
 	if( _lifeIterationCount >= MedeaAltruismSharedData::gEvaluationTime ) // print mEDEA state
 	{
 		// * monitoring: count number of active agents.
-
-		int activeCount = 0;
+		// * monitoring: sum the total amount of energy in the system.
+		int totalEnergy = 0;
+		double activeCount = 0;
 		gLogFile << gWorld->getIterations() << " : active " ;
 		for ( int i = 0 ; i != gAgentCounter ; i++ )
 		{
@@ -129,6 +130,7 @@ void MedeaAltruismWorldObserver::step()
 			{
 				activeCount++;
 				gLogFile << i << " ";
+				totalEnergy += (dynamic_cast<MedeaAltruismAgentWorldModel*>(gWorld->getAgent(i)->getWorldModel()))->getEnergyLevel(); 
 			}
 		}
 		gLogFile << "\n" ;
@@ -143,13 +145,14 @@ void MedeaAltruismWorldObserver::step()
 			gLogFile.close();
 			exit(0);
 		}
-		//TODO: Add check for inactive agent created energy points and remove them.
+		//Sum active energy from EPs
 		int energyPointActiveCount = 0;
 		for(std::vector<EnergyPoint>::iterator it = gEnergyPoints.begin(); it != gEnergyPoints.end(); it++)
 		{
 			if (it->getActiveStatus() == true)
 			{
 				energyPointActiveCount ++;
+				totalEnergy += it->getEnergyPointValue(); 
 			}
 		
 	
@@ -158,7 +161,7 @@ void MedeaAltruismWorldObserver::step()
 
 		}
 		gLogFile << gWorld->getIterations() << " : EP activeCount " << energyPointActiveCount << std::endl;
-	
+		gLogFile << gWorld->getIterations() << " : Entropy " << totalEnergy << std::endl;	
 	
 		// * update iterations counter
 		_lifeIterationCount = 0;
