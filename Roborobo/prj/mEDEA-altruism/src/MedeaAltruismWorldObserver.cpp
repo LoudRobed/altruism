@@ -1,4 +1,4 @@
-/*
+/*:
  *  MedeaAltruismWorldObserver.cpp
  *  roborobo-online
  *
@@ -209,7 +209,7 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 			{
 				for(std::vector<EnergyPoint>::iterator it = gEnergyPoints.begin(); it != gEnergyPoints.end(); it++)
 				{
-					if( (getEuclidianDistance (posRobot,it->getPosition()) < gEnergyPointRadius) && (it->getActiveStatus())  && it->getId() != currentAgentWorldModel->_agentId+400)
+					if( (getEuclidianDistance (posRobot,it->getPosition()) < gEnergyPointRadius) && (it->getActiveStatus())  && it->getId() != currentAgentWorldModel->_agentId+800)
 					{
 						float loadingEnergy = 0.0;
 						if ( MedeaAltruismSharedData::harvestingScheme.compare("dynCost") == 0)
@@ -262,12 +262,12 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 				}
 			}
 			//double thresh = gDonationThreshold;
-			double thresh = 0.95;
+			double thresh = 0.99;
 			double donationRate = currentAgentWorldModel->getEnergyDonation();
 			
 			if(donationRate > thresh){
 			
-				EnergyPoint ep(currentAgentWorldModel->_agentId+400,currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
+				EnergyPoint ep(currentAgentWorldModel->_agentId+800,currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
 				ep.setEnergyPointValueIsLocal(true);
 				ep.setRespawnLagMethodIsLocal(true);
 				ep.setAgentGenerated(true);
@@ -285,6 +285,8 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 				_world->addEnergyPoint(ep);
 				currentAgentWorldModel->setEnergyDonation(-1.0); //Resets donation to 0;
 				_agentPointCount ++;
+				int iter = gWorld->getIterations();				
+				std::cout << "Energy point created by agent " << currentAgentWorldModel->_agentId << " containing " << donation << " energy units in iteration " << iter << std::endl; 
 		}
 }
 		

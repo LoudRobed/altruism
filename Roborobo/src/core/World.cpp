@@ -210,6 +210,7 @@ void World::updateWorld(Uint8 *__keyboardStates)
 		for (std::vector<EnergyPoint>::iterator it = gEnergyPoints.begin(); it < gEnergyPoints.end() ; it++ ){
 		if(it->getActiveStatus() == false && it->isAgentGenerated()){
 		deleteEnergyPoint(i);
+		std::cout << "Deleted energy point made by agent " << it->getId()-800 << " in iteration " << gWorld->getIterations() << std::endl;
 }	
 			i++;
 			it->step();
