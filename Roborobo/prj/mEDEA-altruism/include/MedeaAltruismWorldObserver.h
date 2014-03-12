@@ -28,10 +28,10 @@ class MedeaAltruismWorldObserver : public WorldObserver
 		void updateAllAgentsEnergyLevel();
 		double fixedCost;
 		double exponentialFactor;
+		int _agentPointCount;
 
 	protected:
 		int _lifeIterationCount;
-
 	public:
 		MedeaAltruismWorldObserver( World *__world );
 		~MedeaAltruismWorldObserver();

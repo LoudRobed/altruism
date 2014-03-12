@@ -1,0 +1,16 @@
+# =-=-=-=-=-=-=-=-=-=-=
+# PROPERTIES FILE DUMP 
+# =-=-=-=-=-=-=-=-=-=-=
+#
+# =-= Roborobo! 
+# =-= Official version tag    : 20120605
+# =-= Current build name      : Amsterdam build
+# =-= Compilation version tag : Mar 12 2014 - 10:47:09
+#
+# Loaded time stamp           : 20140312-10h49m50s741842us
+#
+# Original Properties file    : config/
+#
+
+
+gLogFilename=logs/datalog_20140312-10h49m50s741842us.txt

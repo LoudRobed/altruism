@@ -52,7 +52,7 @@ class MedeaAltruismSharedData {
 	static double gEnergyMax; // maximum energy given -- used for initialization, revive and max threshold
 	static double gEnergyRevive; // energy given after revive
 	static double gEnergyInit; // energy given at start-up
-
+	static double gDonationThreshold; //Threshold for perceptron to map to energy donation
 	static bool gDynamicRespawn; // if true, ignore gEnergyPointRespawnLagMaxValue and use tailored MedeaAltruism update version.
 	static int gThresholdIncreaseRespawn;
 	static int gLowestBoundRespawn;
