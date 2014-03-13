@@ -30,6 +30,8 @@ class MedeaAltruismWorldObserver : public WorldObserver
 		double exponentialFactor;
 		int _agentPointCount;
 
+		double penalty();
+
 	protected:
 		int _lifeIterationCount;
 	public:

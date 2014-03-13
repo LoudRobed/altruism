@@ -264,6 +264,7 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 			//double thresh = gDonationThreshold;
 			double thresh = 0.99;
 			double donationRate = currentAgentWorldModel->getEnergyDonation();
+			double donationPenalty = penalty();
 			
 			if(donationRate > thresh){
 			
@@ -281,7 +282,7 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 					ep.setEnergyPointValue(donation);
 					}	
 
-				currentAgentWorldModel->setEnergyLevel(currentAgentWorldModel->getEnergyLevel()-ep.getEnergyPointValue());
+				currentAgentWorldModel->setEnergyLevel(currentAgentWorldModel->getEnergyLevel()-ep.getEnergyPointValue()-donationPenalty);
 				_world->addEnergyPoint(ep);
 				currentAgentWorldModel->setEnergyDonation(-1.0); //Resets donation to 0;
 				_agentPointCount ++;
@@ -330,6 +331,10 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 			//std::cout << "Agent[" << activeCount << "]";
 }
 
+double MedeaAltruismWorldObserver::penalty(){
+
+	return 0;
+}
 
 int MedeaAltruismWorldObserver::getLifeIterationCount()
 {

@@ -9,3 +9,20 @@ Made a dedicated git repo
 Made energypoints made by robots red
 
 
+2014.04.10
+
+The robots are now able to create energy points by using an output of the perceptron. A threshold value decides if energy should be given away
+and the amount the threshold is exceeded determines the amount of energy that is being given away. In my initial runs now, a great number of 
+agents die quickly and I should probably make it even more rare to give away energy. A concern I have is that since the trait of being able to 
+give away energy is intrinsic in all the agents and not an evolved trait, the level of realness is compromised.
+
+2014.04.11
+
+Tried making the threshold a value set in the config file, but roborobo would have none of it, need to ask jean marc. Added some stuff for monitoring what's going on, but should probably 
+make my own logFile that logs just the things I want.
+
+2014.04.12 
+
+todo: Energy dissipation, bugfixing. Log issues.
+
+Today I need to decide how to implement the feature where the creation of energy points comes at a a cost that is greater than the  
