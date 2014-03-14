@@ -118,7 +118,7 @@ EnergyPoint::EnergyPoint(int id, double x, double y) : InanimateObject(id)
 	_agentGenerated = true;
 	color = 0xff0000ff;
 
-	std::string s = "";
+/*	std::string s = "";
 	s += "energy[";
 	std::stringstream out;
 	out << getId();
@@ -152,7 +152,7 @@ EnergyPoint::EnergyPoint(int id, double x, double y) : InanimateObject(id)
 		}
 		//y = (rand() % (gAreaHeight-20)) + 10;
 	}
-
+*/
 	_position = Point2d(x,y);
 
 	_xCenterPixel = x;
@@ -161,11 +161,11 @@ EnergyPoint::EnergyPoint(int id, double x, double y) : InanimateObject(id)
 	_fixedLocation = true;
 	_active = true;
 
-	gProperties.checkAndGetPropertyValue("VisibleEnergyPoint", &_visible, false);
-	if ( _visible)
-	{
+//	gProperties.checkAndGetPropertyValue("VisibleEnergyPoint", &_visible, false);
+//	if ( _visible)
+//	{
 		display();	
-	}
+//	}
 
 //	gProperties.checkAndGetPropertyValue("initLock", &_initLock, true);
 //	_key = _initLock;
@@ -176,11 +176,11 @@ EnergyPoint::EnergyPoint(int id, double x, double y) : InanimateObject(id)
 	_respawnLag = gEnergyPointRespawnLagMaxValue ;
 	_internLagCounter = 0;
 	
-	_respawnMethodIsLocal = false; // use gEnergyPointRespawnLagMaxValue
-	_respawnLagMaxValue = gEnergyPointRespawnLagMaxValue; // default, not used if _respawnMethodIsLocal
+//	_respawnMethodIsLocal = false; // use gEnergyPointRespawnLagMaxValue
+//	_respawnLagMaxValue = gEnergyPointRespawnLagMaxValue; // default, not used if _respawnMethodIsLocal
 	
-	_energyPointValue = gEnergyPointValue;
-	_energyPointValueIsLocal = true; // use gEnergyPointValue
+//	_energyPointValue = gEnergyPointValue;
+//	_energyPointValueIsLocal = true; // use gEnergyPointValue
 
 }
 EnergyPoint::~EnergyPoint()
@@ -198,7 +198,7 @@ void EnergyPoint::setAgentGenerated(bool __in){
 
 void EnergyPoint::display()
 {
-	if(getRespawnLagMethodIsLocal() == true) color = 0xff0000ff;
+	if(isAgentGenerated() == true) color = 0xff0000ff;
 	else color = 0xeab71fff;//Default color.
 	if(_active ){
 	for (Sint16 xColor = _xCenterPixel - Sint16(_radius) ; xColor < _xCenterPixel + Sint16(_radius) ; xColor++)
@@ -215,8 +215,24 @@ void EnergyPoint::display()
 }
 void EnergyPoint::hide()
 {
-	//_visible = false;
-	Uint32 color = 0xffffffff;
+	//_/visible = false;
+	if(isAgentGenerated() == true) color = 0x000000ff;
+	else color = 0xffffffff;
+	for (Sint16 xColor = _xCenterPixel - Sint16(_radius) ; xColor < _xCenterPixel + Sint16(_radius) ; xColor++)
+	{
+		for (Sint16 yColor = _yCenterPixel - Sint16(_radius) ; yColor < _yCenterPixel + Sint16 (_radius); yColor ++)
+		{
+			if ((sqrt ( pow (xColor-_xCenterPixel,2) + pow (yColor - _yCenterPixel,2))) < _radius)
+			{
+				pixelColor(gBackgroundImage, xColor, yColor, color);
+			}
+		}
+	}
+}
+void EnergyPoint::clean()
+{
+	//_/visible = false;
+	color = 0xffffffff;
 	for (Sint16 xColor = _xCenterPixel - Sint16(_radius) ; xColor < _xCenterPixel + Sint16(_radius) ; xColor++)
 	{
 		for (Sint16 yColor = _yCenterPixel - Sint16(_radius) ; yColor < _yCenterPixel + Sint16 (_radius); yColor ++)
@@ -330,15 +346,14 @@ void EnergyPoint::setEnergyPointValue( int __value )
 
 void EnergyPoint::step()
 {
-	if ( !_active ) // case: harvested. respawn delay?
+	if ( !_active && !isAgentGenerated()) // case: harvested. respawn delay?
 	{
 		_internLagCounter++;
 
 		if ( _internLagCounter >= _respawnLag ) // Note: in current implementation, _respawnLag is equal to gEnergyPointRespawnLagMaxValue.
 		{
 			if ( _respawnMethodIsLocal == true )
-				setActiveStatus(false);
-				//_respawnLag = _respawnLagMaxValue; // each energy point gets its own respawn lag
+				_respawnLag = _respawnLagMaxValue; // each energy point gets its own respawn lag
 			else
 				_respawnLag = gEnergyPointRespawnLagMaxValue; // all energy points share the respawn lag value
 
@@ -360,7 +375,7 @@ void EnergyPoint::step()
 			}
 		}
 	}
-	else
+/*	else
 	{
 		if ( _visible && gDisplayMode == 0 )
 		{
@@ -379,10 +394,11 @@ void EnergyPoint::step()
 			//	calls only if display mode is normal speed
 			//	and if property "EnergyPoints_alwaysRender" is true
 			
-	//		if ( gEnergyPoints_alwaysRender ) // NOTE: the hide() method but be called externally (otw: displayed points may not exist anymore)
-			//	display();
+			if ( gEnergyPoints_alwaysRender ) // NOTE: the hide() method but be called externally (otw: displayed points may not exist anymore)
+				display();
 		}
 	}
+*/
 }
 
 void EnergyPoint::setFixedLocationStatus( bool __value )

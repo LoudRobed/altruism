@@ -1,0 +1,719 @@
+# =-=-=-=-=-=-=-=-=-=-=
+# LOG DATA 
+# =-=-=-=-=-=-=-=-=-=-=
+#
+# =-= Roborobo! 
+# =-= Official version tag    : 20120605
+# =-= Current build name      : Amsterdam build
+# =-= Compilation version tag : Mar 13 2014 - 15:46:41
+#
+# Loaded time stamp           : 20140314-07h02m40s536980us
+#
+# random seed             : 1394780560
+0 : Agent Points Created 0
+1 : 1 die
+1 : 1 lf 2
+1 : 1 a 1.45756
+1 : 7 die
+1 : 7 lf 2
+1 : 7 a 1.45756
+1 : 9 die
+1 : 9 lf 2
+1 : 9 a 1.45756
+1 : 51 die
+1 : 51 lf 2
+1 : 51 a 1.45756
+1 : 58 die
+1 : 58 lf 2
+1 : 58 a 1.45756
+1 : 74 die
+1 : 74 lf 2
+1 : 74 a 1.45756
+1 : 88 die
+1 : 88 lf 2
+1 : 88 a 1.45756
+1 : 94 die
+1 : 94 lf 2
+1 : 94 a 1.45756
+1 : Agent Points Created 0
+2 : 10 c 0
+2 : 28 die
+2 : 28 lf 3
+2 : 28 a 1.94341
+2 : 46 die
+2 : 46 lf 3
+2 : 46 a 0.971704
+2 : 49 die
+2 : 49 lf 3
+2 : 49 a 0.971704
+2 : 66 die
+2 : 66 lf 3
+2 : 66 a 0.971704
+2 : Agent Points Created 0
+3 : 10 c 0
+3 : 21 die
+3 : 21 lf 4
+3 : 21 a 1.45756
+3 : 23 die
+3 : 23 lf 4
+3 : 23 a 1.45756
+3 : Agent Points Created 0
+4 : 10 c 0
+4 : Agent Points Created 0
+5 : Agent Points Created 0
+6 : 34 die
+6 : 34 lf 7
+6 : 34 a 0.416445
+6 : 76 die
+6 : 76 lf 7
+6 : 76 a 1.24933
+6 : Agent Points Created 0
+7 : Agent Points Created 0
+8 : Agent Points Created 0
+9 : 30 die
+9 : 30 lf 10
+9 : 30 a 1.16604
+9 : Agent Points Created 0
+10 : Agent Points Created 0
+11 : Agent Points Created 0
+12 : Agent Points Created 0
+13 : Agent Points Created 0
+14 : Agent Points Created 0
+15 : Agent Points Created 0
+16 : 41 die
+16 : 41 lf 17
+16 : 41 a 0.514432
+16 : Agent Points Created 0
+17 : Agent Points Created 0
+18 : Agent Points Created 0
+19 : Agent Points Created 0
+20 : Agent Points Created 0
+21 : Agent Points Created 0
+22 : Agent Points Created 0
+23 : Agent Points Created 0
+24 : Agent Points Created 0
+25 : Agent Points Created 0
+26 : 42 die
+26 : 42 lf 27
+26 : 42 a 0.215934
+26 : Agent Points Created 0
+27 : Agent Points Created 0
+28 : Agent Points Created 0
+29 : Agent Points Created 0
+30 : Agent Points Created 0
+31 : Agent Points Created 0
+32 : Agent Points Created 0
+33 : 18 die
+33 : 18 lf 34
+33 : 18 a 1.37182
+33 : Agent Points Created 0
+34 : Agent Points Created 0
+35 : Agent Points Created 0
+36 : Agent Points Created 0
+37 : Agent Points Created 0
+38 : Agent Points Created 0
+39 : Agent Points Created 0
+40 : Agent Points Created 0
+41 : Agent Points Created 0
+42 : Agent Points Created 0
+43 : Agent Points Created 0
+44 : Agent Points Created 0
+45 : Agent Points Created 0
+46 : Agent Points Created 0
+47 : Agent Points Created 0
+48 : Agent Points Created 0
+49 : Agent Points Created 0
+50 : Agent Points Created 0
+51 : Agent Points Created 0
+52 : Agent Points Created 0
+53 : Agent Points Created 0
+54 : Agent Points Created 0
+55 : Agent Points Created 0
+56 : Agent Points Created 0
+57 : Agent Points Created 0
+58 : Agent Points Created 0
+59 : Agent Points Created 0
+60 : Agent Points Created 0
+61 : 33 c 0
+61 : Agent Points Created 0
+62 : Agent Points Created 0
+63 : Agent Points Created 0
+64 : Agent Points Created 0
+65 : Agent Points Created 0
+66 : Agent Points Created 0
+67 : Agent Points Created 0
+68 : Agent Points Created 0
+69 : Agent Points Created 0
+70 : Agent Points Created 0
+71 : Agent Points Created 0
+72 : Agent Points Created 0
+73 : Agent Points Created 0
+74 : Agent Points Created 0
+75 : Agent Points Created 0
+76 : Agent Points Created 0
+77 : Agent Points Created 0
+78 : Agent Points Created 0
+79 : 50 c 0
+79 : Agent Points Created 0
+80 : Agent Points Created 0
+81 : Agent Points Created 0
+82 : Agent Points Created 0
+83 : Agent Points Created 0
+84 : Agent Points Created 0
+85 : Agent Points Created 0
+86 : Agent Points Created 0
+87 : Agent Points Created 0
+88 : Agent Points Created 0
+89 : Agent Points Created 0
+90 : Agent Points Created 0
+91 : Agent Points Created 0
+92 : Agent Points Created 0
+93 : Agent Points Created 0
+94 : Agent Points Created 0
+95 : Agent Points Created 0
+96 : Agent Points Created 0
+97 : Agent Points Created 0
+98 : Agent Points Created 0
+99 : 0 die
+99 : 0 lf 100
+99 : 0 a 0.116604
+99 : 2 die
+99 : 2 lf 100
+99 : 2 a 0.349813
+99 : 3 die
+99 : 3 lf 100
+99 : 3 a 0.349813
+99 : 4 die
+99 : 4 lf 100
+99 : 4 a 0.52472
+99 : 5 die
+99 : 5 lf 100
+99 : 5 a 0.349813
+99 : 6 die
+99 : 6 lf 100
+99 : 6 a 0.699627
+99 : 8 die
+99 : 8 lf 100
+99 : 8 a 0.233209
+99 : 11 die
+99 : 11 lf 100
+99 : 11 a 0.378965
+99 : 12 die
+99 : 12 lf 100
+99 : 12 a 0.26236
+99 : 13 die
+99 : 13 lf 100
+99 : 13 a 0.291511
+99 : 14 die
+99 : 14 lf 100
+99 : 14 a 0.174907
+99 : 15 die
+99 : 15 lf 100
+99 : 15 a 0.145756
+99 : 16 die
+99 : 16 lf 100
+99 : 16 a 0.670476
+99 : 17 die
+99 : 17 lf 100
+99 : 17 a 0.699627
+99 : 19 die
+99 : 19 lf 100
+99 : 19 a 0.466418
+99 : 20 die
+99 : 20 lf 100
+99 : 20 a 0.349813
+99 : 22 die
+99 : 22 lf 100
+99 : 22 a 0.204058
+99 : 24 die
+99 : 24 lf 100
+99 : 24 a 1.1952
+99 : 25 die
+99 : 25 lf 100
+99 : 25 a 0.26236
+99 : 26 die
+99 : 26 lf 100
+99 : 26 a 0.378965
+99 : 27 die
+99 : 27 lf 100
+99 : 27 a 0.583022
+99 : 29 die
+99 : 29 lf 100
+99 : 29 a 0.641325
+99 : 31 die
+99 : 31 lf 100
+99 : 31 a 0.553871
+99 : 32 die
+99 : 32 lf 100
+99 : 32 a 1.60331
+99 : 35 die
+99 : 35 lf 100
+99 : 35 a 0.26236
+99 : 36 die
+99 : 36 lf 100
+99 : 36 a 0.233209
+99 : 37 die
+99 : 37 lf 100
+99 : 37 a 0.903685
+99 : 38 die
+99 : 38 lf 100
+99 : 38 a 0.699627
+99 : 39 die
+99 : 39 lf 100
+99 : 39 a 0.641325
+99 : 40 die
+99 : 40 lf 100
+99 : 40 a 0.174907
+99 : 43 die
+99 : 43 lf 100
+99 : 43 a 0.495569
+99 : 44 die
+99 : 44 lf 100
+99 : 44 a 0.349813
+99 : 45 die
+99 : 45 lf 100
+99 : 45 a 1.2535
+99 : 47 die
+99 : 47 lf 100
+99 : 47 a 0.378965
+99 : 48 die
+99 : 48 lf 100
+99 : 48 a 0.320662
+99 : 52 die
+99 : 52 lf 100
+99 : 52 a 0.495569
+99 : 53 die
+99 : 53 lf 100
+99 : 53 a 0.320662
+99 : 54 die
+99 : 54 lf 100
+99 : 54 a 0.204058
+99 : 55 die
+99 : 55 lf 100
+99 : 55 a 0.78708
+99 : 56 die
+99 : 56 lf 100
+99 : 56 a 0.466418
+99 : 57 die
+99 : 57 lf 100
+99 : 57 a 0.233209
+99 : 59 die
+99 : 59 lf 100
+99 : 59 a 0.378965
+99 : 60 die
+99 : 60 lf 100
+99 : 60 a 0.174907
+99 : 61 die
+99 : 61 lf 100
+99 : 61 a 0.26236
+99 : 62 die
+99 : 62 lf 100
+99 : 62 a 0.174907
+99 : 63 die
+99 : 63 lf 100
+99 : 63 a 0.78708
+99 : 64 die
+99 : 64 lf 100
+99 : 64 a 0.612174
+99 : 65 die
+99 : 65 lf 100
+99 : 65 a 0.174907
+99 : 67 die
+99 : 67 lf 100
+99 : 67 a 1.2535
+99 : 68 die
+99 : 68 lf 100
+99 : 68 a 0.349813
+99 : 69 die
+99 : 69 lf 100
+99 : 69 a 1.51586
+99 : 70 die
+99 : 70 lf 100
+99 : 70 a 0.378965
+99 : 71 die
+99 : 71 lf 100
+99 : 71 a 0.145756
+99 : 72 die
+99 : 72 lf 100
+99 : 72 a 0.349813
+99 : 73 die
+99 : 73 lf 100
+99 : 73 a 0.349813
+99 : 75 die
+99 : 75 lf 100
+99 : 75 a 1.34095
+99 : 77 die
+99 : 77 lf 100
+99 : 77 a 0.233209
+99 : 78 die
+99 : 78 lf 100
+99 : 78 a 0.174907
+99 : 79 die
+99 : 79 lf 100
+99 : 79 a 0.291511
+99 : 80 die
+99 : 80 lf 100
+99 : 80 a 0.26236
+99 : 81 die
+99 : 81 lf 100
+99 : 81 a 0.641325
+99 : 82 die
+99 : 82 lf 100
+99 : 82 a 0.0874534
+99 : 83 die
+99 : 83 lf 100
+99 : 83 a 1.04944
+99 : 84 die
+99 : 84 lf 100
+99 : 84 a 0.728778
+99 : 85 die
+99 : 85 lf 100
+99 : 85 a 0.26236
+99 : 86 die
+99 : 86 lf 100
+99 : 86 a 0.174907
+99 : 87 die
+99 : 87 lf 100
+99 : 87 a 0.378965
+99 : 89 die
+99 : 89 lf 100
+99 : 89 a 0.233209
+99 : 90 die
+99 : 90 lf 100
+99 : 90 a 0.52472
+99 : 91 die
+99 : 91 lf 100
+99 : 91 a 0.78708
+99 : 92 die
+99 : 92 lf 100
+99 : 92 a 0.437267
+99 : 93 die
+99 : 93 lf 100
+99 : 93 a 0.349813
+99 : 95 die
+99 : 95 lf 100
+99 : 95 a 0.466418
+99 : 96 die
+99 : 96 lf 100
+99 : 96 a 0.903685
+99 : 97 die
+99 : 97 lf 100
+99 : 97 a 0.233209
+99 : 98 die
+99 : 98 lf 100
+99 : 98 a 0.145756
+99 : 99 die
+99 : 99 lf 100
+99 : 99 a 0.641325
+99 : Agent Points Created 0
+100 : Agent Points Created 0
+101 : Agent Points Created 0
+102 : Agent Points Created 0
+103 : Agent Points Created 0
+104 : Agent Points Created 0
+105 : Agent Points Created 0
+106 : Agent Points Created 0
+107 : Agent Points Created 0
+108 : Agent Points Created 0
+109 : Agent Points Created 0
+110 : Agent Points Created 0
+111 : Agent Points Created 0
+112 : Agent Points Created 0
+113 : Agent Points Created 0
+114 : Agent Points Created 0
+115 : Agent Points Created 0
+116 : Agent Points Created 0
+117 : Agent Points Created 0
+118 : Agent Points Created 0
+119 : Agent Points Created 0
+120 : Agent Points Created 0
+121 : Agent Points Created 0
+122 : Agent Points Created 0
+123 : Agent Points Created 0
+124 : Agent Points Created 0
+125 : Agent Points Created 0
+126 : Agent Points Created 0
+127 : Agent Points Created 0
+128 : Agent Points Created 0
+129 : Agent Points Created 0
+130 : Agent Points Created 0
+131 : Agent Points Created 0
+132 : Agent Points Created 0
+133 : Agent Points Created 0
+134 : Agent Points Created 0
+135 : Agent Points Created 0
+136 : Agent Points Created 0
+137 : Agent Points Created 0
+138 : Agent Points Created 0
+139 : Agent Points Created 0
+140 : Agent Points Created 0
+141 : Agent Points Created 0
+142 : Agent Points Created 0
+143 : Agent Points Created 0
+144 : Agent Points Created 0
+145 : Agent Points Created 0
+146 : Agent Points Created 0
+147 : Agent Points Created 0
+148 : Agent Points Created 0
+149 : 33 die
+149 : 33 lf 150
+149 : 33 a 0.991138
+149 : 50 die
+149 : 50 lf 150
+149 : 50 a 1.01057
+149 : Agent Points Created 0
+150 : Agent Points Created 0
+151 : Agent Points Created 0
+152 : Agent Points Created 0
+153 : Agent Points Created 0
+154 : Agent Points Created 0
+155 : Agent Points Created 0
+156 : Agent Points Created 0
+157 : Agent Points Created 0
+158 : Agent Points Created 0
+159 : Agent Points Created 0
+160 : Agent Points Created 0
+161 : Agent Points Created 0
+162 : Agent Points Created 0
+163 : Agent Points Created 0
+164 : Agent Points Created 0
+165 : Agent Points Created 0
+166 : Agent Points Created 0
+167 : Agent Points Created 0
+168 : Agent Points Created 0
+169 : Agent Points Created 0
+170 : Agent Points Created 0
+171 : Agent Points Created 0
+172 : Agent Points Created 0
+173 : Agent Points Created 0
+174 : Agent Points Created 0
+175 : Agent Points Created 0
+176 : Agent Points Created 0
+177 : Agent Points Created 0
+178 : Agent Points Created 0
+179 : Agent Points Created 0
+180 : Agent Points Created 0
+181 : Agent Points Created 0
+182 : Agent Points Created 0
+183 : Agent Points Created 0
+184 : Agent Points Created 0
+185 : Agent Points Created 0
+186 : Agent Points Created 0
+187 : Agent Points Created 0
+188 : Agent Points Created 0
+189 : Agent Points Created 0
+190 : Agent Points Created 0
+191 : Agent Points Created 0
+192 : Agent Points Created 0
+193 : Agent Points Created 0
+194 : Agent Points Created 0
+195 : Agent Points Created 0
+196 : Agent Points Created 0
+197 : Agent Points Created 0
+198 : Agent Points Created 0
+199 : Agent Points Created 0
+200 : Agent Points Created 0
+201 : Agent Points Created 0
+202 : Agent Points Created 0
+203 : Agent Points Created 0
+204 : Agent Points Created 0
+205 : Agent Points Created 0
+206 : Agent Points Created 0
+207 : Agent Points Created 0
+208 : Agent Points Created 0
+209 : Agent Points Created 0
+210 : Agent Points Created 0
+211 : Agent Points Created 0
+212 : Agent Points Created 0
+213 : Agent Points Created 0
+214 : Agent Points Created 0
+215 : Agent Points Created 0
+216 : Agent Points Created 0
+217 : Agent Points Created 0
+218 : Agent Points Created 0
+219 : Agent Points Created 0
+220 : Agent Points Created 0
+221 : Agent Points Created 0
+222 : Agent Points Created 0
+223 : Agent Points Created 0
+224 : Agent Points Created 0
+225 : Agent Points Created 0
+226 : Agent Points Created 0
+227 : Agent Points Created 0
+228 : Agent Points Created 0
+229 : Agent Points Created 0
+230 : Agent Points Created 0
+231 : Agent Points Created 0
+232 : Agent Points Created 0
+233 : Agent Points Created 0
+234 : Agent Points Created 0
+235 : Agent Points Created 0
+236 : Agent Points Created 0
+237 : Agent Points Created 0
+238 : Agent Points Created 0
+239 : Agent Points Created 0
+240 : Agent Points Created 0
+241 : Agent Points Created 0
+242 : Agent Points Created 0
+243 : Agent Points Created 0
+244 : Agent Points Created 0
+245 : Agent Points Created 0
+246 : Agent Points Created 0
+247 : Agent Points Created 0
+248 : Agent Points Created 0
+249 : 10 die
+249 : 10 lf 250
+249 : 10 a 0.198228
+249 : Agent Points Created 0
+250 : Agent Points Created 0
+251 : Agent Points Created 0
+252 : Agent Points Created 0
+253 : Agent Points Created 0
+254 : Agent Points Created 0
+255 : Agent Points Created 0
+256 : Agent Points Created 0
+257 : Agent Points Created 0
+258 : Agent Points Created 0
+259 : Agent Points Created 0
+260 : Agent Points Created 0
+261 : Agent Points Created 0
+262 : Agent Points Created 0
+263 : Agent Points Created 0
+264 : Agent Points Created 0
+265 : Agent Points Created 0
+266 : Agent Points Created 0
+267 : Agent Points Created 0
+268 : Agent Points Created 0
+269 : Agent Points Created 0
+270 : Agent Points Created 0
+271 : Agent Points Created 0
+272 : Agent Points Created 0
+273 : Agent Points Created 0
+274 : Agent Points Created 0
+275 : Agent Points Created 0
+276 : Agent Points Created 0
+277 : Agent Points Created 0
+278 : Agent Points Created 0
+279 : Agent Points Created 0
+280 : Agent Points Created 0
+281 : Agent Points Created 0
+282 : Agent Points Created 0
+283 : Agent Points Created 0
+284 : Agent Points Created 0
+285 : Agent Points Created 0
+286 : Agent Points Created 0
+287 : Agent Points Created 0
+288 : Agent Points Created 0
+289 : Agent Points Created 0
+290 : Agent Points Created 0
+291 : Agent Points Created 0
+292 : Agent Points Created 0
+293 : Agent Points Created 0
+294 : Agent Points Created 0
+295 : Agent Points Created 0
+296 : Agent Points Created 0
+297 : Agent Points Created 0
+298 : Agent Points Created 0
+299 : Agent Points Created 0
+300 : Agent Points Created 0
+301 : Agent Points Created 0
+302 : Agent Points Created 0
+303 : Agent Points Created 0
+304 : Agent Points Created 0
+305 : Agent Points Created 0
+306 : Agent Points Created 0
+307 : Agent Points Created 0
+308 : Agent Points Created 0
+309 : Agent Points Created 0
+310 : Agent Points Created 0
+311 : Agent Points Created 0
+312 : Agent Points Created 0
+313 : Agent Points Created 0
+314 : Agent Points Created 0
+315 : Agent Points Created 0
+316 : Agent Points Created 0
+317 : Agent Points Created 0
+318 : Agent Points Created 0
+319 : Agent Points Created 0
+320 : Agent Points Created 0
+321 : Agent Points Created 0
+322 : Agent Points Created 0
+323 : Agent Points Created 0
+324 : Agent Points Created 0
+325 : Agent Points Created 0
+326 : Agent Points Created 0
+327 : Agent Points Created 0
+328 : Agent Points Created 0
+329 : Agent Points Created 0
+330 : Agent Points Created 0
+331 : Agent Points Created 0
+332 : Agent Points Created 0
+333 : Agent Points Created 0
+334 : Agent Points Created 0
+335 : Agent Points Created 0
+336 : Agent Points Created 0
+337 : Agent Points Created 0
+338 : Agent Points Created 0
+339 : Agent Points Created 0
+340 : Agent Points Created 0
+341 : Agent Points Created 0
+342 : Agent Points Created 0
+343 : Agent Points Created 0
+344 : Agent Points Created 0
+345 : Agent Points Created 0
+346 : Agent Points Created 0
+347 : Agent Points Created 0
+348 : Agent Points Created 0
+349 : Agent Points Created 0
+350 : Agent Points Created 0
+351 : Agent Points Created 0
+352 : Agent Points Created 0
+353 : Agent Points Created 0
+354 : Agent Points Created 0
+355 : Agent Points Created 0
+356 : Agent Points Created 0
+357 : Agent Points Created 0
+358 : Agent Points Created 0
+359 : Agent Points Created 0
+360 : Agent Points Created 0
+361 : Agent Points Created 0
+362 : Agent Points Created 0
+363 : Agent Points Created 0
+364 : Agent Points Created 0
+365 : Agent Points Created 0
+366 : Agent Points Created 0
+367 : Agent Points Created 0
+368 : Agent Points Created 0
+369 : Agent Points Created 0
+370 : Agent Points Created 0
+371 : Agent Points Created 0
+372 : Agent Points Created 0
+373 : Agent Points Created 0
+374 : Agent Points Created 0
+375 : Agent Points Created 0
+376 : Agent Points Created 0
+377 : Agent Points Created 0
+378 : Agent Points Created 0
+379 : Agent Points Created 0
+380 : Agent Points Created 0
+381 : Agent Points Created 0
+382 : Agent Points Created 0
+383 : Agent Points Created 0
+384 : Agent Points Created 0
+385 : Agent Points Created 0
+386 : Agent Points Created 0
+387 : Agent Points Created 0
+388 : Agent Points Created 0
+389 : Agent Points Created 0
+390 : Agent Points Created 0
+391 : Agent Points Created 0
+392 : Agent Points Created 0
+393 : Agent Points Created 0
+394 : Agent Points Created 0
+395 : Agent Points Created 0
+396 : Agent Points Created 0
+397 : Agent Points Created 0
+398 : Agent Points Created 0
+399 : Agent Points Created 0
+400 : active 
+400 : activeCount 0

@@ -1,0 +1,1092 @@
+# =-=-=-=-=-=-=-=-=-=-=
+# LOG DATA 
+# =-=-=-=-=-=-=-=-=-=-=
+#
+# =-= Roborobo! 
+# =-= Official version tag    : 20120605
+# =-= Current build name      : Amsterdam build
+# =-= Compilation version tag : Mar 13 2014 - 15:46:41
+#
+# Loaded time stamp           : 20140313-16h08m25s470523us
+#
+# random seed             : 1394726905
+0 : 1 c 50
+0 : 3 c 50
+0 : 4 c 50
+0 : 6 c 50
+0 : 9 c 50
+0 : 9 c 50
+0 : 14 c 50
+0 : 26 c 50
+0 : 34 c 50
+0 : 35 c 50
+0 : 35 c 50
+0 : 37 c 50
+0 : 37 c 50
+0 : 40 c 50
+0 : 46 c 50
+0 : 47 c 50
+0 : 49 c 50
+0 : 49 c 50
+0 : 53 c 50
+0 : 53 c 50
+0 : 56 c 50
+0 : 57 c 50
+0 : 57 c 50
+0 : 58 c 50
+0 : 62 c 50
+0 : 65 c 50
+0 : 69 c 50
+0 : 70 c 50
+0 : 81 c 50
+0 : 81 c 50
+0 : 83 c 50
+0 : 86 c 50
+0 : 90 c 50
+0 : 96 c 50
+0 : 96 c 50
+0 : 99 c 50
+0 : Agent Points Created 0
+1 : 1 c 0
+1 : 3 c 0
+1 : 4 c 0
+1 : 6 c 0
+1 : 9 c 0
+1 : 9 c 0
+1 : 10 c 0
+1 : 14 c 0
+1 : 15 die
+1 : 15 lf 2
+1 : 15 a 1.45756
+1 : 26 c 0
+1 : 26 die
+1 : 26 lf 2
+1 : 26 a 1.45756
+1 : 34 c 0
+1 : 35 c 0
+1 : 35 c 0
+1 : 37 c 0
+1 : 40 c 0
+1 : 41 c 0
+1 : 43 c 0
+1 : 46 c 0
+1 : 47 c 0
+1 : 49 c 0
+1 : 49 c 0
+1 : 49 c 0
+1 : 53 c 0
+1 : 53 c 0
+1 : 56 c 0
+1 : 57 c 0
+1 : 58 c 0
+1 : 62 c 0
+1 : 65 c 0
+1 : 69 c 0
+1 : 81 c 0
+1 : 81 c 0
+1 : 83 c 0
+1 : 86 c 0
+1 : 90 c 0
+1 : 96 c 0
+1 : 99 c 0
+1 : Agent Points Created 0
+2 : 9 die
+2 : 9 lf 3
+2 : 9 a 0.971704
+2 : 11 c 0
+2 : 96 c 0
+2 : Agent Points Created 0
+3 : 32 c 0
+3 : 34 c 0
+3 : 47 c 0
+3 : 68 c 0
+3 : Agent Points Created 0
+4 : 39 c 0
+4 : 56 c 0
+4 : 57 c 0
+4 : 68 c 0
+4 : 84 c 0
+4 : Agent Points Created 0
+5 : 1 c 0
+5 : 4 c 0
+5 : 31 c 0
+5 : 34 c 0
+5 : Agent Points Created 0
+6 : 24 c 0
+6 : 27 c 0
+6 : 87 c 0
+6 : 97 c 0
+6 : Agent Points Created 0
+7 : 19 c 0
+7 : 30 c 0
+7 : 33 c 0
+7 : 79 c 0
+7 : 80 c 0
+7 : 99 c 0
+7 : Agent Points Created 0
+8 : 39 c 0
+8 : 57 c 0
+8 : 77 c 0
+8 : 79 c 0
+8 : Agent Points Created 0
+9 : Agent Points Created 0
+10 : 24 c 0
+10 : 39 c 0
+10 : 42 c 0
+10 : 66 c 0
+10 : 70 c 0
+10 : 92 c 0
+10 : 97 c 0
+10 : Agent Points Created 0
+11 : 13 c 0
+11 : 76 c 0
+11 : Agent Points Created 0
+12 : Agent Points Created 0
+13 : 11 c 0
+13 : 85 c 0
+13 : Agent Points Created 0
+14 : Agent Points Created 0
+15 : 38 c 0
+15 : Agent Points Created 0
+16 : 23 c 0
+16 : 78 c 0
+16 : Agent Points Created 0
+17 : Agent Points Created 0
+18 : Agent Points Created 0
+19 : 84 c 0
+19 : Agent Points Created 0
+20 : Agent Points Created 0
+21 : 5 c 0
+21 : 23 c 0
+21 : 48 die
+21 : 48 lf 22
+21 : 48 a 0.662525
+21 : 66 c 0
+21 : Agent Points Created 0
+22 : 32 c 0
+22 : 72 c 0
+22 : 76 c 0
+22 : 93 c 0
+22 : Agent Points Created 0
+23 : 71 c 0
+23 : 76 c 0
+23 : Agent Points Created 0
+24 : 1 c 0
+24 : Agent Points Created 0
+25 : 67 c 0
+25 : Agent Points Created 0
+26 : 3 c 0
+26 : 6 c 0
+26 : 35 c 0
+26 : 37 c 0
+26 : 40 c 0
+26 : 41 c 0
+26 : 46 c 0
+26 : 47 c 0
+26 : 49 c 0
+26 : 49 c 0
+26 : 49 c 0
+26 : 53 c 0
+26 : 53 c 0
+26 : 56 c 0
+26 : 57 c 0
+26 : 58 c 0
+26 : 62 c 0
+26 : 69 c 0
+26 : 81 c 0
+26 : 81 c 0
+26 : 86 c 0
+26 : 90 c 0
+26 : 96 c 0
+26 : 99 c 0
+26 : Agent Points Created 0
+27 : 30 c 0
+27 : 87 c 0
+27 : 96 c 0
+27 : Agent Points Created 0
+28 : 68 c 0
+28 : Agent Points Created 0
+29 : 19 c 0
+29 : 68 c 0
+29 : Agent Points Created 0
+30 : 1 c 0
+30 : 31 c 0
+30 : 38 c 0
+30 : Agent Points Created 0
+31 : 24 c 0
+31 : 47 c 0
+31 : 87 c 0
+31 : 97 c 0
+31 : Agent Points Created 0
+32 : 8 c 0
+32 : 19 c 0
+32 : 27 c 0
+32 : 83 c 0
+32 : 99 c 0
+32 : Agent Points Created 0
+33 : 37 c 0
+33 : 57 c 0
+33 : 77 c 0
+33 : Agent Points Created 0
+34 : 30 c 0
+34 : Agent Points Created 0
+35 : 71 c 0
+35 : 72 c 0
+35 : Agent Points Created 0
+36 : 8 c 0
+36 : 71 c 0
+36 : 92 c 0
+36 : Agent Points Created 0
+37 : 5 c 0
+37 : 6 c 0
+37 : Agent Points Created 0
+38 : 11 c 0
+38 : 42 c 0
+38 : 80 c 0
+38 : Agent Points Created 0
+39 : 5 c 0
+39 : 27 c 0
+39 : Agent Points Created 0
+40 : Agent Points Created 0
+41 : 10 c 0
+41 : Agent Points Created 0
+42 : 38 c 0
+42 : Agent Points Created 0
+43 : 32 c 0
+43 : 39 c 0
+43 : Agent Points Created 0
+44 : 62 c 0
+44 : 84 c 0
+44 : Agent Points Created 0
+45 : 65 c 0
+45 : 66 c 0
+45 : Agent Points Created 0
+46 : 23 c 0
+46 : Agent Points Created 0
+47 : 71 c 0
+47 : 72 c 0
+47 : 79 c 0
+47 : Agent Points Created 0
+48 : 76 c 0
+48 : Agent Points Created 0
+49 : 65 c 0
+49 : 65 c 0
+49 : 72 c 0
+49 : 76 c 0
+49 : 85 c 0
+49 : Agent Points Created 0
+50 : 67 c 0
+50 : Agent Points Created 0
+51 : 3 c 0
+51 : 37 c 0
+51 : 40 c 0
+51 : 41 c 0
+51 : 46 c 0
+51 : 49 c 0
+51 : 49 c 0
+51 : 49 c 0
+51 : 53 c 0
+51 : 58 c 0
+51 : 62 c 0
+51 : 69 c 0
+51 : 81 c 0
+51 : 86 c 0
+51 : 90 c 0
+51 : 96 c 0
+51 : Agent Points Created 0
+52 : 1 c 0
+52 : 7 c 0
+52 : 47 c 0
+52 : 87 c 0
+52 : 87 c 0
+52 : 96 c 0
+52 : Agent Points Created 0
+53 : 41 c 0
+53 : 68 c 0
+53 : Agent Points Created 0
+54 : 38 c 0
+54 : 57 c 0
+54 : 68 c 0
+54 : Agent Points Created 0
+55 : 19 c 0
+55 : 31 c 0
+55 : Agent Points Created 0
+56 : 22 c 0
+56 : 97 c 0
+56 : Agent Points Created 0
+57 : 27 c 0
+57 : 32 c 0
+57 : 78 c 0
+57 : 83 c 0
+57 : 99 c 0
+57 : Agent Points Created 0
+58 : 64 c 0
+58 : 77 c 0
+58 : Agent Points Created 0
+59 : 43 c 0
+59 : 47 c 0
+59 : 87 c 0
+59 : Agent Points Created 0
+60 : 30 c 0
+60 : 37 c 0
+60 : 57 c 0
+60 : 72 c 0
+60 : Agent Points Created 0
+61 : Agent Points Created 0
+62 : 6 c 0
+62 : Agent Points Created 0
+63 : 11 c 0
+63 : 29 c 0
+63 : 57 c 0
+63 : Agent Points Created 0
+64 : Agent Points Created 0
+65 : 92 c 0
+65 : Agent Points Created 0
+66 : 30 c 0
+66 : 38 c 0
+66 : 39 c 0
+66 : 42 c 0
+66 : Agent Points Created 0
+67 : 5 c 0
+67 : Agent Points Created 0
+68 : 8 c 0
+68 : 22 c 0
+68 : 55 c 0
+68 : Agent Points Created 0
+69 : 14 c 0
+69 : 84 c 0
+69 : Agent Points Created 0
+70 : 65 c 0
+70 : Agent Points Created 0
+71 : 5 c 0
+71 : 62 c 0
+71 : Agent Points Created 0
+72 : 53 c 0
+72 : 94 c 0
+72 : Agent Points Created 0
+73 : 38 c 0
+73 : Agent Points Created 0
+74 : 65 c 0
+74 : 65 c 0
+74 : 85 c 0
+74 : Agent Points Created 0
+75 : 67 c 0
+75 : Agent Points Created 0
+76 : 8 c 0
+76 : 37 c 0
+76 : 40 c 0
+76 : 46 c 0
+76 : 49 c 0
+76 : 53 c 0
+76 : 62 c 0
+76 : 69 c 0
+76 : 81 c 0
+76 : 86 c 0
+76 : 90 c 0
+76 : 96 c 0
+76 : Agent Points Created 0
+77 : 58 c 0
+77 : 87 c 0
+77 : 96 c 0
+77 : Agent Points Created 0
+78 : 41 c 0
+78 : 68 c 0
+78 : Agent Points Created 0
+79 : 3 c 0
+79 : 68 c 0
+79 : Agent Points Created 0
+80 : 19 c 0
+80 : 47 c 0
+80 : Agent Points Created 0
+81 : 97 c 0
+81 : Agent Points Created 0
+82 : 27 c 0
+82 : 31 c 0
+82 : 87 c 0
+82 : 99 c 0
+82 : Agent Points Created 0
+83 : 77 c 0
+83 : Agent Points Created 0
+84 : 87 c 0
+84 : Agent Points Created 0
+85 : 1 c 0
+85 : 23 c 0
+85 : 43 c 0
+85 : 57 c 0
+85 : 65 c 0
+85 : 83 c 0
+85 : Agent Points Created 0
+86 : 37 c 0
+86 : 57 c 0
+86 : Agent Points Created 0
+87 : 64 c 0
+87 : Agent Points Created 0
+88 : 11 c 0
+88 : 80 c 0
+88 : Agent Points Created 0
+89 : 47 c 0
+89 : Agent Points Created 0
+90 : 6 c 0
+90 : Agent Points Created 0
+91 : Agent Points Created 0
+92 : 57 c 0
+92 : Agent Points Created 0
+93 : 8 c 0
+93 : 22 c 0
+93 : Agent Points Created 0
+94 : 42 c 0
+94 : 55 c 0
+94 : 57 c 0
+94 : 84 c 0
+94 : Agent Points Created 0
+95 : Agent Points Created 0
+96 : Agent Points Created 0
+97 : 39 c 0
+97 : 65 c 0
+97 : 94 c 0
+97 : Agent Points Created 0
+98 : 32 c 0
+98 : 62 c 0
+98 : Agent Points Created 0
+99 : 0 die
+99 : 0 lf 100
+99 : 0 a 0.145756
+99 : 2 die
+99 : 2 lf 100
+99 : 2 a 0.0291511
+99 : 12 die
+99 : 12 lf 100
+99 : 12 a 1.02029
+99 : 16 die
+99 : 16 lf 100
+99 : 16 a 0.26236
+99 : 17 die
+99 : 17 lf 100
+99 : 17 a 0.0583022
+99 : 18 die
+99 : 18 lf 100
+99 : 18 a 0.0874534
+99 : 20 die
+99 : 20 lf 100
+99 : 20 a 0.204058
+99 : 21 die
+99 : 21 lf 100
+99 : 21 a 0.291511
+99 : 25 die
+99 : 25 lf 100
+99 : 25 a 0.349813
+99 : 28 die
+99 : 28 lf 100
+99 : 28 a 0.204058
+99 : 36 die
+99 : 36 lf 100
+99 : 36 a 0.204058
+99 : 44 die
+99 : 44 lf 100
+99 : 44 a 0.0583022
+99 : 45 die
+99 : 45 lf 100
+99 : 45 a 0.437267
+99 : 50 die
+99 : 50 lf 100
+99 : 50 a 0.26236
+99 : 51 die
+99 : 51 lf 100
+99 : 51 a 0.495569
+99 : 52 die
+99 : 52 lf 100
+99 : 52 a 0.349813
+99 : 54 die
+99 : 54 lf 100
+99 : 54 a 0.174907
+99 : 59 die
+99 : 59 lf 100
+99 : 59 a 0.52472
+99 : 60 die
+99 : 60 lf 100
+99 : 60 a 0.378965
+99 : 61 die
+99 : 61 lf 100
+99 : 61 a 0.349813
+99 : 63 die
+99 : 63 lf 100
+99 : 63 a 0.145756
+99 : 65 c 0
+99 : 65 c 0
+99 : 73 die
+99 : 73 lf 100
+99 : 73 a 0.26236
+99 : 74 die
+99 : 74 lf 100
+99 : 74 a 0.291511
+99 : 75 die
+99 : 75 lf 100
+99 : 75 a 1.1952
+99 : 82 die
+99 : 82 lf 100
+99 : 82 a 0.233209
+99 : 88 die
+99 : 88 lf 100
+99 : 88 a 0.291511
+99 : 89 die
+99 : 89 lf 100
+99 : 89 a 0.0874534
+99 : 91 die
+99 : 91 lf 100
+99 : 91 a 0.320662
+99 : 95 die
+99 : 95 lf 100
+99 : 95 a 0.145756
+99 : 98 die
+99 : 98 lf 100
+99 : 98 a 0.408116
+99 : Agent Points Created 0
+100 : 23 c 0
+100 : 67 c 0
+100 : 87 c 0
+100 : Agent Points Created 0
+101 : 8 c 0
+101 : 37 c 0
+101 : 40 c 0
+101 : 46 c 0
+101 : 53 c 0
+101 : 62 c 0
+101 : 69 c 0
+101 : 81 c 0
+101 : 86 c 0
+101 : 90 c 0
+101 : Agent Points Created 0
+102 : 10 c 0
+102 : 58 c 0
+102 : 87 c 0
+102 : 96 c 0
+102 : Agent Points Created 0
+103 : 30 c 0
+103 : 68 c 0
+103 : Agent Points Created 0
+104 : 53 c 0
+104 : 68 c 0
+104 : 96 c 0
+104 : Agent Points Created 0
+105 : 19 c 0
+105 : 34 c 0
+105 : Agent Points Created 0
+106 : 34 c 0
+106 : 97 c 0
+106 : Agent Points Created 0
+107 : 31 c 0
+107 : Agent Points Created 0
+108 : 6 c 0
+108 : 77 c 0
+108 : Agent Points Created 0
+109 : 27 c 0
+109 : 30 c 0
+109 : 47 c 0
+109 : Agent Points Created 0
+110 : 23 c 0
+110 : 29 c 0
+110 : 29 c 0
+110 : 43 c 0
+110 : 57 c 0
+110 : 83 c 0
+110 : Agent Points Created 0
+111 : Agent Points Created 0
+112 : 3 c 0
+112 : Agent Points Created 0
+113 : 11 c 0
+113 : 37 c 0
+113 : Agent Points Created 0
+114 : 87 c 0
+114 : Agent Points Created 0
+115 : Agent Points Created 0
+116 : 38 c 0
+116 : Agent Points Created 0
+117 : 64 c 0
+117 : 80 c 0
+117 : Agent Points Created 0
+118 : 22 c 0
+118 : 47 c 0
+118 : Agent Points Created 0
+119 : 8 c 0
+119 : 30 c 0
+119 : 58 c 0
+119 : 99 c 0
+119 : Agent Points Created 0
+120 : 1 c 0
+120 : Agent Points Created 0
+121 : 42 c 0
+121 : 55 c 0
+121 : 57 c 0
+121 : 85 c 0
+121 : Agent Points Created 0
+122 : 14 c 0
+122 : Agent Points Created 0
+123 : 30 c 0
+123 : 57 c 0
+123 : Agent Points Created 0
+124 : Agent Points Created 0
+125 : 23 c 0
+125 : 62 c 0
+125 : 87 c 0
+125 : Agent Points Created 0
+126 : 37 c 0
+126 : 40 c 0
+126 : 46 c 0
+126 : 57 c 0
+126 : 69 c 0
+126 : 81 c 0
+126 : 86 c 0
+126 : Agent Points Created 0
+127 : 1 c 0
+127 : 10 c 0
+127 : 58 c 0
+127 : 62 c 0
+127 : 87 c 0
+127 : 96 c 0
+127 : Agent Points Created 0
+128 : 68 c 0
+128 : Agent Points Created 0
+129 : 1 c 0
+129 : 53 c 0
+129 : 68 c 0
+129 : 96 c 0
+129 : Agent Points Created 0
+130 : 19 c 0
+130 : 53 c 0
+130 : Agent Points Created 0
+131 : 97 c 0
+131 : Agent Points Created 0
+132 : 31 c 0
+132 : 84 c 0
+132 : 92 c 0
+132 : Agent Points Created 0
+133 : 38 c 0
+133 : 77 c 0
+133 : Agent Points Created 0
+134 : 1 c 0
+134 : Agent Points Created 0
+135 : 23 c 0
+135 : 35 c 0
+135 : 57 c 0
+135 : 83 c 0
+135 : Agent Points Created 0
+136 : Agent Points Created 0
+137 : Agent Points Created 0
+138 : 11 c 0
+138 : 13 c 0
+138 : Agent Points Created 0
+139 : 47 c 0
+139 : Agent Points Created 0
+140 : 1 c 0
+140 : 30 c 0
+140 : 37 c 0
+140 : Agent Points Created 0
+141 : 30 c 0
+141 : Agent Points Created 0
+142 : 80 c 0
+142 : Agent Points Created 0
+143 : 22 c 0
+143 : Agent Points Created 0
+144 : 7 c 0
+144 : 99 c 0
+144 : Agent Points Created 0
+145 : Agent Points Created 0
+146 : 47 c 0
+146 : 85 c 0
+146 : Agent Points Created 0
+147 : 1 c 0
+147 : 8 c 0
+147 : 87 c 0
+147 : Agent Points Created 0
+148 : 8 c 0
+148 : 42 c 0
+148 : 55 c 0
+148 : 57 c 0
+148 : Agent Points Created 0
+149 : 13 c 0
+149 : 33 die
+149 : 33 lf 150
+149 : 33 a 0.194341
+149 : 70 die
+149 : 70 lf 150
+149 : 70 a 0.602456
+149 : 93 die
+149 : 93 lf 150
+149 : 93 a 0.291511
+149 : Agent Points Created 0
+150 : 23 c 0
+150 : Agent Points Created 0
+151 : 40 c 0
+151 : 46 c 0
+151 : 57 c 0
+151 : 62 c 0
+151 : 69 c 0
+151 : 85 c 0
+151 : 86 c 0
+151 : Agent Points Created 0
+152 : 41 c 0
+152 : 58 c 0
+152 : 96 c 0
+152 : Agent Points Created 0
+153 : 37 c 0
+153 : 62 c 0
+153 : 68 c 0
+153 : Agent Points Created 0
+154 : 53 c 0
+154 : 68 c 0
+154 : Agent Points Created 0
+155 : 19 c 0
+155 : 96 c 0
+155 : Agent Points Created 0
+156 : 6 c 0
+156 : 38 c 0
+156 : 87 c 0
+156 : 97 c 0
+156 : Agent Points Created 0
+157 : 30 c 0
+157 : Agent Points Created 0
+158 : 14 c 0
+158 : 77 c 0
+158 : 87 c 0
+158 : Agent Points Created 0
+159 : 6 c 0
+159 : Agent Points Created 0
+160 : 1 c 0
+160 : 14 c 0
+160 : 31 c 0
+160 : 57 c 0
+160 : 64 c 0
+160 : Agent Points Created 0
+161 : 14 c 0
+161 : 43 c 0
+161 : 83 c 0
+161 : Agent Points Created 0
+162 : 10 c 0
+162 : Agent Points Created 0
+163 : 11 c 0
+163 : Agent Points Created 0
+164 : Agent Points Created 0
+165 : 87 c 0
+165 : Agent Points Created 0
+166 : Agent Points Created 0
+167 : 1 c 0
+167 : 37 c 0
+167 : 80 c 0
+167 : Agent Points Created 0
+168 : 22 c 0
+168 : 47 c 0
+168 : Agent Points Created 0
+169 : 38 c 0
+169 : 87 c 0
+169 : 99 c 0
+169 : Agent Points Created 0
+170 : Agent Points Created 0
+171 : 1 c 0
+171 : 85 c 0
+171 : Agent Points Created 0
+172 : 31 c 0
+172 : Agent Points Created 0
+173 : 55 c 0
+173 : 57 c 0
+173 : 84 c 0
+173 : 87 c 0
+173 : Agent Points Created 0
+174 : 47 c 0
+174 : Agent Points Created 0
+175 : 23 c 0
+175 : 32 c 0
+175 : 42 c 0
+175 : Agent Points Created 0
+176 : 8 c 0
+176 : 35 c 0
+176 : 40 c 0
+176 : 46 c 0
+176 : 57 c 0
+176 : 69 c 0
+176 : 81 c 0
+176 : 86 c 0
+176 : Agent Points Created 0
+177 : 62 c 0
+177 : 96 c 0
+177 : Agent Points Created 0
+178 : 41 c 0
+178 : 68 c 0
+178 : Agent Points Created 0
+179 : 53 c 0
+179 : 62 c 0
+179 : 68 c 0
+179 : Agent Points Created 0
+180 : 96 c 0
+180 : Agent Points Created 0
+181 : 37 c 0
+181 : 97 c 0
+181 : Agent Points Created 0
+182 : Agent Points Created 0
+183 : 1 c 0
+183 : 30 c 0
+183 : 77 c 0
+183 : 85 c 0
+183 : Agent Points Created 0
+184 : 6 c 0
+184 : 32 c 0
+184 : Agent Points Created 0
+185 : 57 c 0
+185 : Agent Points Created 0
+186 : 1 c 0
+186 : 83 c 0
+186 : Agent Points Created 0
+187 : 1 c 0
+187 : 10 c 0
+187 : Agent Points Created 0
+188 : 11 c 0
+188 : 31 c 0
+188 : Agent Points Created 0
+189 : 1 c 0
+189 : 30 c 0
+189 : 64 c 0
+189 : Agent Points Created 0
+190 : 58 c 0
+190 : Agent Points Created 0
+191 : Agent Points Created 0
+192 : 19 c 0
+192 : 30 c 0
+192 : 80 c 0
+192 : Agent Points Created 0
+193 : 22 c 0
+193 : Agent Points Created 0
+194 : 38 c 0
+194 : 99 c 0
+194 : Agent Points Created 0
+195 : 37 c 0
+195 : 58 c 0
+195 : Agent Points Created 0
+196 : 47 c 0
+196 : 85 c 0
+196 : Agent Points Created 0
+197 : 14 c 0
+197 : 27 c 0
+197 : 87 c 0
+197 : Agent Points Created 0
+198 : 55 c 0
+198 : Agent Points Created 0
+199 : 1 c 0
+199 : 4 die
+199 : 4 lf 200
+199 : 4 a 0.218633
+199 : 7 die
+199 : 7 lf 200
+199 : 7 a 1.23892
+199 : 8 c 0
+199 : 78 die
+199 : 78 lf 200
+199 : 78 a 0.539296
+199 : 94 die
+199 : 94 lf 200
+199 : 94 a 0.276936
+199 : Agent Points Created 0
+200 : 31 c 0
+200 : Agent Points Created 0
+201 : 34 c 0
+201 : 40 c 0
+201 : 46 c 0
+201 : 57 c 0
+201 : 69 c 0
+201 : 81 c 0
+201 : 86 c 0
+201 : Agent Points Created 0
+202 : 34 c 0
+202 : 42 c 0
+202 : 96 c 0
+202 : Agent Points Created 0
+203 : 5 c 0
+203 : 8 c 0
+203 : 13 c 0
+203 : 41 c 0
+203 : 47 c 0
+203 : 62 c 0
+203 : 68 c 0
+203 : 87 c 0
+203 : Agent Points Created 0
+204 : 53 c 0
+204 : 57 c 0
+204 : 68 c 0
+204 : Agent Points Created 0
+205 : 1 c 0
+205 : 62 c 0
+205 : 96 c 0
+205 : Agent Points Created 0
+206 : 92 c 0
+206 : 97 c 0
+206 : Agent Points Created 0
+207 : 87 c 0
+207 : Agent Points Created 0
+208 : 77 c 0
+208 : Agent Points Created 0
+209 : 37 c 0
+209 : 38 c 0
+209 : Agent Points Created 0
+210 : 57 c 0
+210 : Agent Points Created 0
+211 : 83 c 0
+211 : 84 c 0
+211 : Agent Points Created 0
+212 : 41 c 0
+212 : Agent Points Created 0
+213 : 11 c 0
+213 : 30 c 0
+213 : Agent Points Created 0
+214 : 31 c 0
+214 : Agent Points Created 0
+215 : Agent Points Created 0
+216 : Agent Points Created 0
+217 : 80 c 0
+217 : Agent Points Created 0
+218 : 22 c 0
+218 : 30 c 0
+218 : 31 c 0
+218 : Agent Points Created 0
+219 : 31 c 0
+219 : 35 c 0
+219 : 87 c 0
+219 : Agent Points Created 0
+220 : 58 c 0
+220 : Agent Points Created 0
+221 : 6 c 0
+221 : 47 c 0
+221 : 85 c 0
+221 : 85 c 0
+221 : Agent Points Created 0
+222 : 10 c 0
+222 : 87 c 0
+222 : Agent Points Created 0
+223 : 55 c 0
+223 : 83 c 0
+223 : Agent Points Created 0
+224 : 37 c 0
+224 : Agent Points Created 0
+225 : 96 c 0
+225 : Agent Points Created 0
+226 : 14 c 0
+226 : 40 c 0
+226 : 46 c 0
+226 : 69 c 0
+226 : 81 c 0
+226 : 86 c 0
+226 : Agent Points Created 0
+227 : 57 c 0
+227 : 96 c 0
+227 : Agent Points Created 0
+228 : 8 c 0
+228 : 27 c 0
+228 : 47 c 0
+228 : 68 c 0
+228 : Agent Points Created 0
+229 : 42 c 0
+229 : 53 c 0
+229 : 62 c 0
+229 : 68 c 0
+229 : Agent Points Created 0
+230 : 41 c 0
+230 : 87 c 0
+230 : 96 c 0
+230 : Agent Points Created 0
+231 : 57 c 0
+231 : 62 c 0
+231 : 97 c 0
+231 : Agent Points Created 0
+232 : 5 c 0
+232 : 31 c 0
+232 : 38 c 0
+232 : Agent Points Created 0
+233 : 13 c 0
+233 : 47 c 0
+233 : 77 c 0
+233 : Agent Points Created 0
+234 : Agent Points Created 0
+235 : 99 c 0
+235 : Agent Points Created 0
+236 : 83 c 0
+236 : 85 c 0
+236 : Agent Points Created 0
+237 : 1 c 0
+237 : 41 c 0
+237 : Agent Points Created 0
+238 : 11 c 0
+238 : 37 c 0
+238 : Agent Points Created 0
+239 : Agent Points Created 0
+240 : Agent Points Created 0
+241 : Agent Points Created 0
+242 : 80 c 0
+242 : Agent Points Created 0
+243 : 22 c 0
+243 : 31 c 0
+243 : 67 c 0
+243 : Agent Points Created 0
+244 : Agent Points Created 0
+245 : 58 c 0
+245 : Agent Points Created 0
+246 : 6 c 0
+246 : 14 c 0
+246 : 38 c 0
+246 : 64 c 0
+246 : 85 c 0
+246 : Agent Points Created 0
+247 : 10 c 0
+247 : 87 c 0
+247 : Agent Points Created 0
+248 : 55 c 0
+248 : Agent Points Created 0
+249 : 8 c 0
+249 : 24 die
+249 : 24 lf 250
+249 : 24 a 0.0932836
+249 : 29 die
+249 : 29 lf 250
+249 : 29 a 0.839552
+249 : 56 die
+249 : 56 lf 250
+249 : 56 a 0.25653
+249 : 66 die
+249 : 66 lf 250
+249 : 66 a 0.652985
+249 : 79 die
+249 : 79 lf 250
+249 : 79 a 0.26819
+249 : 84 c 0
+249 : Agent Points Created 0
+250 : 96 c 0
+250 : Agent Points Created 0
+251 : 14 c 0
+251 : 40 c 0
+251 : 46 c 0
+251 : 47 c 0
+251 : 69 c 0
+251 : 81 c 0
+251 : 86 c 0
+251 : Agent Points Created 0
+252 : 87 c 0
+252 : 96 c 0
+252 : Agent Points Created 0
+253 : 8 c 0
+253 : 68 c 0
+253 : Agent Points Created 0
+254 : 53 c 0
+254 : 68 c 0
+254 : Agent Points Created 0
+255 : 42 c 0
+255 : 62 c 0
+255 : 87 c 0
+255 : Agent Points Created 0
+256 : 62 c 0
+256 : 97 c 0
+256 : Agent Points Created 0
+257 : 41 c 0
+257 : Agent Points Created 0
+258 : 32 c 0
+258 : 47 c 0
+258 : 77 c 0
+258 : Agent Points Created 0
+259 : 5 c 0
+259 : 69 c 0
+259 : Agent Points Created 0

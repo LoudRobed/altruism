@@ -1,0 +1,277 @@
+# =-=-=-=-=-=-=-=-=-=-=
+# LOG DATA 
+# =-=-=-=-=-=-=-=-=-=-=
+#
+# =-= Roborobo! 
+# =-= Official version tag    : 20120605
+# =-= Current build name      : Amsterdam build
+# =-= Compilation version tag : Mar 13 2014 - 15:46:41
+#
+# Loaded time stamp           : 20140313-16h10m32s413702us
+#
+# random seed             : 1394727032
+0 : 3 c 50
+0 : 4 c 50
+0 : 4 c 50
+0 : 6 c 50
+0 : 6 c 50
+0 : 12 c 50
+0 : 19 c 50
+0 : 21 c 50
+0 : 36 c 50
+0 : 44 c 50
+0 : 50 c 50
+0 : 52 c 50
+0 : 56 c 50
+0 : 56 c 50
+0 : 60 c 50
+0 : 60 c 50
+0 : 60 c 50
+0 : 61 c 50
+0 : 62 c 50
+0 : 63 c 50
+0 : 66 c 50
+0 : 67 c 50
+0 : 67 c 50
+0 : 70 c 50
+0 : 71 c 50
+0 : 71 c 50
+0 : 74 c 50
+0 : 74 c 50
+0 : 80 c 50
+0 : 86 c 50
+0 : 87 c 50
+0 : 88 c 50
+0 : 92 c 50
+0 : 92 c 50
+0 : 93 c 50
+0 : 95 c 50
+0 : 97 c 50
+0 : 98 c 50
+0 : Agent Points Created 0
+1 : 3 c 0
+1 : 4 c 0
+1 : 4 c 0
+1 : 6 c 0
+1 : 6 c 0
+1 : 12 c 0
+1 : 12 die
+1 : 12 lf 2
+1 : 12 a 1.45756
+1 : 19 c 0
+1 : 26 c 0
+1 : 34 die
+1 : 34 lf 2
+1 : 34 a 1.45756
+1 : 36 c 0
+1 : 44 c 0
+1 : 45 die
+1 : 45 lf 2
+1 : 45 a 1.45756
+1 : 50 c 0
+1 : 51 die
+1 : 51 lf 2
+1 : 51 a 1.45756
+1 : 52 c 0
+1 : 54 die
+1 : 54 lf 2
+1 : 54 a 1.45756
+1 : 56 c 0
+1 : 56 c 0
+1 : 60 c 0
+1 : 60 c 0
+1 : 60 c 0
+1 : 61 c 0
+1 : 62 c 0
+1 : 63 c 0
+1 : 65 c 0
+1 : 66 c 0
+1 : 66 die
+1 : 66 lf 2
+1 : 66 a 1.45756
+1 : 67 c 0
+1 : 67 c 0
+1 : 70 c 0
+1 : 71 c 0
+1 : 71 c 0
+1 : 73 c 0
+1 : 74 c 0
+1 : 74 c 0
+1 : 75 die
+1 : 75 lf 2
+1 : 75 a 1.45756
+1 : 78 die
+1 : 78 lf 2
+1 : 78 a 1.45756
+1 : 80 c 0
+1 : 81 c 0
+1 : 86 c 0
+1 : 86 die
+1 : 86 lf 2
+1 : 86 a 1.45756
+1 : 87 c 0
+1 : 87 die
+1 : 87 lf 2
+1 : 87 a 1.45756
+1 : 88 die
+1 : 88 lf 2
+1 : 88 a 1.45756
+1 : 90 die
+1 : 90 lf 2
+1 : 90 a 1.45756
+1 : 92 c 0
+1 : 92 c 0
+1 : 92 die
+1 : 92 lf 2
+1 : 92 a 1.45756
+1 : 93 c 0
+1 : 95 c 0
+1 : 95 die
+1 : 95 lf 2
+1 : 95 a 1.45756
+1 : 96 die
+1 : 96 lf 2
+1 : 96 a 1.45756
+1 : 97 c 0
+1 : 97 die
+1 : 97 lf 2
+1 : 97 a 1.45756
+1 : 98 c 0
+1 : 98 die
+1 : 98 lf 2
+1 : 98 a 1.45756
+1 : Agent Points Created 0
+2 : 14 die
+2 : 14 lf 3
+2 : 14 a 0.971704
+2 : 17 die
+2 : 17 lf 3
+2 : 17 a 0.971704
+2 : 20 c 0
+2 : 27 c 0
+2 : 41 die
+2 : 41 lf 3
+2 : 41 a 0.971704
+2 : 55 c 0
+2 : 57 die
+2 : 57 lf 3
+2 : 57 a 1.94341
+2 : 64 die
+2 : 64 lf 3
+2 : 64 a 0.971704
+2 : 71 c 0
+2 : 81 die
+2 : 81 lf 3
+2 : 81 a 1.94341
+2 : 82 die
+2 : 82 lf 3
+2 : 82 a 1.94341
+2 : 91 die
+2 : 91 lf 3
+2 : 91 a 0.971704
+2 : Agent Points Created 0
+3 : 27 c 0
+3 : 33 c 0
+3 : 36 die
+3 : 36 lf 4
+3 : 36 a 1.45756
+3 : 38 die
+3 : 38 lf 4
+3 : 38 a 1.45756
+3 : 44 c 0
+3 : 68 c 0
+3 : Agent Points Created 0
+4 : 16 c 0
+4 : 49 die
+4 : 49 lf 5
+4 : 49 a 0.583022
+4 : 68 die
+4 : 68 lf 5
+4 : 68 a 1.16604
+4 : 99 c 0
+4 : Agent Points Created 0
+5 : 25 die
+5 : 25 lf 6
+5 : 25 a 0.971704
+5 : 63 c 0
+5 : 69 c 0
+5 : Agent Points Created 0
+6 : 4 c 0
+6 : 15 die
+6 : 15 lf 7
+6 : 15 a 1.24933
+6 : 24 die
+6 : 24 lf 7
+6 : 24 a 1.24933
+6 : 60 c 0
+6 : 62 c 0
+6 : 85 c 0
+6 : Agent Points Created 0
+7 : 40 die
+7 : 40 lf 8
+7 : 40 a 0.728778
+7 : 60 c 0
+7 : Agent Points Created 0
+8 : 20 c 0
+8 : 65 c 0
+8 : Agent Points Created 0
+9 : 59 c 0
+9 : Agent Points Created 0
+10 : 22 c 0
+10 : 94 c 0
+10 : 94 c 0
+10 : Agent Points Created 0
+11 : Agent Points Created 0
+12 : 83 die
+12 : 83 lf 13
+12 : 83 a 1.56968
+12 : Agent Points Created 0
+13 : 73 c 0
+13 : 94 c 0
+13 : Agent Points Created 0
+14 : 23 c 0
+14 : Agent Points Created 0
+15 : Agent Points Created 0
+16 : 10 c 0
+16 : 60 c 0
+16 : 76 c 0
+16 : Agent Points Created 0
+17 : 2 c 0
+17 : 16 c 0
+17 : Agent Points Created 0
+18 : Agent Points Created 0
+19 : 6 c 0
+19 : 19 c 0
+19 : 27 c 0
+19 : 85 c 0
+19 : Agent Points Created 0
+20 : Agent Points Created 0
+21 : 84 c 0
+21 : Agent Points Created 0
+22 : Agent Points Created 0
+23 : 5 c 0
+23 : 99 c 0
+23 : Agent Points Created 0
+24 : 94 c 0
+24 : Agent Points Created 0
+25 : 16 c 0
+25 : 94 c 0
+25 : Agent Points Created 0
+26 : 3 c 0
+26 : 4 c 0
+26 : 4 c 0
+26 : 26 c 0
+26 : 44 c 0
+26 : 52 c 0
+26 : 56 c 0
+26 : 56 c 0
+26 : 60 c 0
+26 : 60 c 0
+26 : 60 c 0
+26 : 61 c 0
+26 : 63 c 0
+26 : 71 c 0
+26 : 71 c 0
+26 : 73 c 0
+26 : 74 c 0
+26 : Agent Points Created 0

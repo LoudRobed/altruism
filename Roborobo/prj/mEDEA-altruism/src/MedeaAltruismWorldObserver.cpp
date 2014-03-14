@@ -258,6 +258,7 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 						//it->setRespawnLag(exponentialRespawn);
 						it->setRespawnLag((loadingEnergy/gEnergyPointValue)*MedeaAltruismSharedData::gHighestBoundRespawn);
 						it->setActiveStatus(false);
+						//std::cout << "Agent " << currentAgentWorldModel->_agentId << " ate an enrgypoint made by " << it->getId()-800 << " In iteration " << gWorld->getIterations() << std::endl;
 					}
 				}
 			}
@@ -269,9 +270,9 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 			if(donationRate > thresh){
 			
 				EnergyPoint ep(currentAgentWorldModel->_agentId+800,currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
-				ep.setEnergyPointValueIsLocal(true);
-				ep.setRespawnLagMethodIsLocal(true);
-				ep.setAgentGenerated(true);
+			//	ep.setEnergyPointValueIsLocal(true);
+			//	ep.setRespawnLagMethodIsLocal(true);
+			//	ep.setAgentGenerated(true);
 			
 				double donation = ((1.0-donationRate)/(1.0-thresh))*MedeaAltruismSharedData::gEnergyMax;
 				
@@ -284,10 +285,10 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 
 				currentAgentWorldModel->setEnergyLevel(currentAgentWorldModel->getEnergyLevel()-ep.getEnergyPointValue()-donationPenalty);
 				_world->addEnergyPoint(ep);
-				currentAgentWorldModel->setEnergyDonation(-1.0); //Resets donation to 0;
+			//	currentAgentWorldModel->setEnergyDonation(-1.0); //Resets donation to 0;
 				_agentPointCount ++;
 				int iter = gWorld->getIterations();				
-				std::cout << "Energy point created by agent " << currentAgentWorldModel->_agentId << " containing " << donation << " energy units in iteration " << iter << std::endl; 
+				std::cout << "Energy point created by agent " << currentAgentWorldModel->_agentId << " containing " << donation << " energy units with epID " << ep.getId() << " in iteration " << iter << std::endl; 
 		}
 }
 		
@@ -325,7 +326,6 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 		
 			currentAgentWorldModel->_genomesList.empty();
 		}
-		//TODO: GIVEAWAY
 	}	
 			gLogFile << gWorld->getIterations() << " : " << "Agent Points Created " << gAgentPoints << std::endl;
 			//std::cout << "Agent[" << activeCount << "]";

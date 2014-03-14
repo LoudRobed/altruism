@@ -75,6 +75,7 @@ class EnergyPoint : public InanimateObject
 
 		void display(); // override
 		void hide();	// override
+		void clean();	
 	
 };
 
