@@ -209,7 +209,7 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 			{
 				for(std::vector<EnergyPoint>::iterator it = gEnergyPoints.begin(); it != gEnergyPoints.end(); it++)
 				{
-					if( (getEuclidianDistance (posRobot,it->getPosition()) < gEnergyPointRadius) && (it->getActiveStatus())  && it->getId() != currentAgentWorldModel->_agentId+800)
+					if( (getEuclidianDistance (posRobot,it->getPosition()) < gEnergyPointRadius) && (it->getActiveStatus())  && it->getId() != currentAgentWorldModel->_agentId+gMaxEnergyPoints)
 					{
 						float loadingEnergy = 0.0;
 						if ( MedeaAltruismSharedData::harvestingScheme.compare("dynCost") == 0)
@@ -258,7 +258,7 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 						//it->setRespawnLag(exponentialRespawn);
 						it->setRespawnLag((loadingEnergy/gEnergyPointValue)*MedeaAltruismSharedData::gHighestBoundRespawn);
 						it->setActiveStatus(false);
-						//std::cout << "Agent " << currentAgentWorldModel->_agentId << " ate an enrgypoint made by " << it->getId()-800 << " In iteration " << gWorld->getIterations() << std::endl;
+						//std::cout << "Agent " << currentAgentWorldModel->_agentId << " ate an enrgypoint made by " << it->getId()-gMaxEnergyPoints << " In iteration " << gWorld->getIterations() << std::endl;
 					}
 				}
 			}
@@ -269,7 +269,7 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 			
 			if(donationRate > thresh){
 			
-				EnergyPoint ep(currentAgentWorldModel->_agentId+800,currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
+				EnergyPoint ep(currentAgentWorldModel->_agentId+gMaxEnergyPoints,currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
 			//	ep.setEnergyPointValueIsLocal(true);
 			//	ep.setRespawnLagMethodIsLocal(true);
 			//	ep.setAgentGenerated(true);
@@ -288,7 +288,8 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 			//	currentAgentWorldModel->setEnergyDonation(-1.0); //Resets donation to 0;
 				_agentPointCount ++;
 				int iter = gWorld->getIterations();				
-				std::cout << "Energy point created by agent " << currentAgentWorldModel->_agentId << " containing " << donation << " energy units with epID " << ep.getId() << " in iteration " << iter << std::endl; 
+				gLogFile << gWorld->getIterations()  << "Energy point created by agent " << currentAgentWorldModel->_agentId << " containing " << donation << " energy units with epID " << ep.getId() << " in iteration " << iter << std::endl; 
+
 		}
 }
 		
