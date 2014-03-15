@@ -90,6 +90,8 @@ std::vector<std::string> gRemainingCommandLineParameters;
 std::string gLogFilename =						"logs/datalog.txt";
 std::ofstream gLogFile;
 
+std::string gStatFilename = 						"logs/stats.txt";
+std::ofstream gStatFile;
 std::string gAgentMaskImageFilename =			"data/agent-mask.png";
 std::string gAgentDisplayImageFilename =			"data/agent-mask.png";
 std::string gAgentSpecsImageFilename =			"data/agent-specs.png";
@@ -773,9 +775,14 @@ void initLogging()
 	// main log file.
 	
 	gLogFile.open(gLogFilename.c_str());//, std::ofstream::out | std::ofstream::app);
+	gStatFile.open(gStatFilename.c_str()); 
 	
 	if(!gLogFile) { 
 		std::cout << "[error] Cannot open log file " << gLogFilename << "." << std::endl << std::endl;
+		exit (1); 
+	} 
+	if(!gStatFile) { 
+		std::cout << "[error] Cannot open stat file " << gStatFilename << "." << std::endl << std::endl;
 		exit (1); 
 	} 
 
@@ -792,12 +799,17 @@ void initLogging()
 	gLogFile << "#" << std::endl;
 
 	//gLogFile << "# log comment      : " << gLogCommentText << std::endl; 
-
+	
+	gStatFile << "# =-=-=-=-=-=-=-=-=-=-=" << std::endl;
+	gStatFile << "# STATISTICAL DATA " << std::endl;
+	gStatFile << "# =-=-=-=-=-=-=-=-=-=-=" << std::endl;
+	gStatFile << "#" << std::endl;
 }
 
 void stopLogging()
 {
 	gLogFile.close();
+	gStatFile.close();
 }
 
 
@@ -1361,6 +1373,16 @@ bool loadProperties( std::string __propertiesFilename )
 	else
 	{
 		gLogFilename = "logs/datalog_" + gStartTime + ".txt";
+		gProperties.setProperty("gLogFilename",gLogFilename);
+
+		std::cout << "[WARNING] No default gLogFilename string value. Log data will be written in \"" << gLogFilename << "\"\n";
+		//returnValue = false;
+	}
+	if ( gProperties.hasProperty("gStatFilename") )
+		gLogFilename = gProperties.getProperty("gStatFilename");
+	else
+	{
+		gLogFilename = "logs/stats_" + gStartTime + ".txt";
 		gProperties.setProperty("gLogFilename",gLogFilename);
 
 		std::cout << "[WARNING] No default gLogFilename string value. Log data will be written in \"" << gLogFilename << "\"\n";

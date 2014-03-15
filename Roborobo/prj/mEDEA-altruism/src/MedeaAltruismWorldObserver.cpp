@@ -128,6 +128,7 @@ void MedeaAltruismWorldObserver::step()
 		int totalEnergy = 0;
 		double activeCount = 0;
 		gLogFile << gWorld->getIterations() << " : active " ;
+		gStatFile << gWorld->getIterations() << " : active " ;
 		for ( int i = 0 ; i != gAgentCounter ; i++ )
 		{
 			if ( (dynamic_cast<MedeaAltruismAgentWorldModel*>(gWorld->getAgent(i)->getWorldModel()))->getActiveStatus() == true )
@@ -138,6 +139,7 @@ void MedeaAltruismWorldObserver::step()
 			}
 		}
 		gLogFile << "\n" ;
+		gStatFile << activeCount << std::endl;
 		if ( !gVerbose )
 		{
 			std::cout << "[" << activeCount << "]";

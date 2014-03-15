@@ -49,7 +49,8 @@ extern std::vector<std::string> gRemainingCommandLineParameters;
 extern std::string gLogCommentText; // user comment that will be written in the log file (e.g. description of experimental setup)
 extern std::string gLogFilename;
 extern std::ofstream gLogFile;
-
+extern std::string gStatFilename;
+extern std::ofstream gStatFile;
 extern std::string gAgentMaskImageFilename;
 extern std::string gAgentDisplayImageFilename;
 extern std::string gAgentSpecsImageFilename;
