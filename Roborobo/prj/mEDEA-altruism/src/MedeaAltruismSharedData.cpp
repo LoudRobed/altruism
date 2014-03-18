@@ -61,7 +61,7 @@ int MedeaAltruismSharedData::gHighestBoundRespawn;
 
 
 double MedeaAltruismSharedData::gMaxPenalizationRate;
-
+double MedeaAltruismSharedData::gDonationThreshold;
 std::string MedeaAltruismSharedData::selectionScheme;
 std::string MedeaAltruismSharedData::harvestingScheme;
 

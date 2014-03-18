@@ -73,7 +73,7 @@ MedeaAltruismWorldObserver::MedeaAltruismWorldObserver( World* __world ) : World
 	gProperties.checkAndGetPropertyValue("selectionScheme",&MedeaAltruismSharedData::selectionScheme,true);
 	gProperties.checkAndGetPropertyValue("harvestingScheme",&MedeaAltruismSharedData::harvestingScheme,true);
 	//gDonationThreshold is the upper limit for the value of Donation before a donation is being made.
-//	gProperties.checkAndGetPropertyValue("gDonationThreshold",&MedeaAltruismSharedData::gDonationThreshold,true);
+	gProperties.checkAndGetPropertyValue("gDonationThreshold",&MedeaAltruismSharedData::gDonationThreshold,true);
 
 
 	// ====
@@ -128,7 +128,6 @@ void MedeaAltruismWorldObserver::step()
 		int totalEnergy = 0;
 		double activeCount = 0;
 		gLogFile << gWorld->getIterations() << " : active " ;
-		gStatFile << gWorld->getIterations() << " : active " ;
 		for ( int i = 0 ; i != gAgentCounter ; i++ )
 		{
 			if ( (dynamic_cast<MedeaAltruismAgentWorldModel*>(gWorld->getAgent(i)->getWorldModel()))->getActiveStatus() == true )
@@ -139,7 +138,7 @@ void MedeaAltruismWorldObserver::step()
 			}
 		}
 		gLogFile << "\n" ;
-		gStatFile << activeCount << std::endl;
+		//gStatFile << activeCount << std::endl;
 		if ( !gVerbose )
 		{
 			std::cout << "[" << activeCount << "]";
@@ -207,6 +206,7 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 			// * update agent energy (if needed) - agent should be on an active energy point location to get energy
 		
 			Point2d posRobot(currentAgentWorldModel->_xReal,currentAgentWorldModel->_yReal);
+		
 			if ( gEnergyMode && currentAgentWorldModel->getActiveStatus())
 			{
 				for(std::vector<EnergyPoint>::iterator it = gEnergyPoints.begin(); it != gEnergyPoints.end(); it++)
@@ -264,8 +264,8 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 					}
 				}
 			}
-			//double thresh = gDonationThreshold;
-			double thresh = 0.99;
+			double thresh = MedeaAltruismSharedData::gDonationThreshold;
+			//double thresh = 0.99;
 			double donationRate = currentAgentWorldModel->getEnergyDonation();
 			double donationPenalty = penalty();
 			
@@ -289,9 +289,8 @@ void MedeaAltruismWorldObserver::updateAllAgentsEnergyLevel()
 				_world->addEnergyPoint(ep);
 			//	currentAgentWorldModel->setEnergyDonation(-1.0); //Resets donation to 0;
 				_agentPointCount ++;
-				int iter = gWorld->getIterations();				
-				gLogFile << gWorld->getIterations()  << "Energy point created by agent " << currentAgentWorldModel->_agentId << " containing " << donation << " energy units with epID " << ep.getId() << " in iteration " << iter << std::endl; 
-
+				gStatFile << gWorld->getIterations()  << "," << currentAgentWorldModel->_agentId << "," << currentAgentWorldModel->getEnergyLevel()+donation << "," << donation << std::endl; 
+//TODO: Log genetic relatedness to other agents close by.
 		}
 }
 		

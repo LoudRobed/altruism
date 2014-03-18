@@ -1379,13 +1379,13 @@ bool loadProperties( std::string __propertiesFilename )
 		//returnValue = false;
 	}
 	if ( gProperties.hasProperty("gStatFilename") )
-		gLogFilename = gProperties.getProperty("gStatFilename");
+		gStatFilename = gProperties.getProperty("gStatFilename");
 	else
 	{
-		gLogFilename = "logs/stats_" + gStartTime + ".txt";
-		gProperties.setProperty("gLogFilename",gLogFilename);
+		gStatFilename = "logs/stats_" + gStartTime + ".txt";
+		gProperties.setProperty("gStatFilename",gLogFilename);
 
-		std::cout << "[WARNING] No default gLogFilename string value. Log data will be written in \"" << gLogFilename << "\"\n";
+		std::cout << "[WARNING] No default gLogFilename string value. Log data will be written in \"" << gStatFilename << "\"\n";
 		//returnValue = false;
 	}
 	
