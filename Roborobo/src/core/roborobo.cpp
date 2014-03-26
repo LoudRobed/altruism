@@ -1583,6 +1583,7 @@ bool runRoborobo(int __maxIt) // default parameter is -1 (infinite)
 			gWorld->updateWorld(); 
 			if ( gWorld->getIterations()%10000 == 0 )
 				if ( gVerbose ) std::cout << ".";
+			//if(__maxIt/currentIt==25 || __maxIt/currentIt == 50 || __maxIt/currentIt == 75) std::cout << "Instance " << __maxIt/currentIt << " percen finished" <<std::endl;
 		}
 		else
 		{

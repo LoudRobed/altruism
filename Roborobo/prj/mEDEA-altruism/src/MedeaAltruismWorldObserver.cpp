@@ -141,7 +141,7 @@ void MedeaAltruismWorldObserver::step()
 		//gStatFile << activeCount << std::endl;
 		if ( !gVerbose )
 		{
-			std::cout << "[" << activeCount << "]";
+//			std::cout << "[" << activeCount << "]";
 		}
 		gLogFile << gWorld->getIterations() << " : activeCount " << activeCount << std::endl;
 

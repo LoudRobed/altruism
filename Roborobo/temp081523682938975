@@ -1,0 +1,14 @@
+
+ =-= Roborobo! 
+ =-= nicolas.bredeche(at)gmail.com
+ =-= Official version tag    : 20120605
+ =-= Current build name      : Amsterdam build
+ =-= Compilation version tag : Mar 18 2014 - 09:10:25
+
+[info] Properties will be loaded from file "config/MedeaAltruism.properties".
+[info] Current location : /home/andreas/master/Roborobo
+
+
+[WARNING] gAgentDisplayImageFilename string value is missing (value will be copied from gAgentMaskImageFilename).
+[WARNING] No default gLogFilename string value. Log data will be written in "logs/datalog_20140326-08h15m23s705631us.txt"
+[WARNING] No default gLogFilename string value. Log data will be written in "logs/stats_20140326-08h15m23s705631us.txt"

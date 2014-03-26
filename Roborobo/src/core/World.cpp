@@ -211,7 +211,7 @@ void World::updateWorld(Uint8 *__keyboardStates)
 		if(it->getActiveStatus() == false && it->isAgentGenerated()){
 		it->clean();
 		deleteEnergyPoint(i);
-		std::cout << "Deleted energy point made by agent " << it->getId()-800 << " in iteration " << gWorld->getIterations() << std::endl;
+		//std::cout << "Deleted energy point made by agent " << it->getId()-800 << " in iteration " << gWorld->getIterations() << std::endl;
 }	
 		if(it->getActiveStatus() == true && it->isAgentGenerated()){
 
